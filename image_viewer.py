@@ -14,10 +14,10 @@ import sharedGUI as sg
 # How to combine frames, scrollbars and canvas
 class ImageViewer:
     
-    def __init__(self,parent_obj,picture=None):
-        self._size      = 0
-        self._picture   = picture
-        self.parent_obj = parent_obj
+    def __init__(self,parent,picture=None):
+        self._size    = 0
+        self._picture = picture
+        self.parent   = parent
         self.gui()
         self.pic()
         # Set the scrolling region only after setting a picture
@@ -28,10 +28,10 @@ class ImageViewer:
         self.obj = sg.objs.new_top()
         self.title()
         self.frames()
-        self.canvas = sg.Canvas(parent_obj = self.frame1)
-        self.label  = sg.Label (parent_obj = self.frame1
-                               ,expand     = True
-                               ,fill       = 'both'
+        self.canvas = sg.Canvas(parent = self.frame1)
+        self.label  = sg.Label (parent = self.frame1
+                               ,expand = True
+                               ,fill   = 'both'
                                )
         self.canvas.embed(self.label)
         self.scroll_x()
@@ -63,19 +63,19 @@ class ImageViewer:
         self.yscroll.config(command=self.canvas.widget.yview)
         
     def frames(self):
-        self.frame   = sg.Frame (parent_obj = self.obj)
-        self.frame_x = sg.Frame (parent_obj = self.frame
-                                ,expand     = False
-                                ,fill       = 'x'
-                                ,side       = 'bottom'
+        self.frame   = sg.Frame (parent = self.obj)
+        self.frame_x = sg.Frame (parent = self.frame
+                                ,expand = False
+                                ,fill   = 'x'
+                                ,side   = 'bottom'
                                 )
-        self.frame_y = sg.Frame (parent_obj = self.frame
-                                ,expand     = False
-                                ,fill       = 'y'
-                                ,side       = 'right'
+        self.frame_y = sg.Frame (parent = self.frame
+                                ,expand = False
+                                ,fill   = 'y'
+                                ,side   = 'right'
                                 )
         # This frame must be created after the bottom frame
-        self.frame1  = sg.Frame (parent_obj = self.frame)
+        self.frame1  = sg.Frame (parent = self.frame)
     
     def pic(self):
         if self._picture:
@@ -171,8 +171,8 @@ class ImageViewer:
 
 if __name__ == '__main__':
     sg.objs.start()
-    iv = ImageViewer (parent_obj = sg.objs.root()
-                     ,picture    = '/home/pete/pics/240255-1366x768.jpg'
+    iv = ImageViewer (parent  = sg.objs.root()
+                     ,picture = '/home/pete/pics/240255-1366x768.jpg'
                      )
     iv.show()
     sg.objs.end()
