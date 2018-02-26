@@ -25,7 +25,8 @@ class ImageViewer:
         self.scroll2start()
         
     def gui(self):
-        self.obj = sg.objs.new_top()
+        self.obj = sg.objs.new_top(Maximize=False)
+        sg.Geometry(parent=self.obj).set('1024x768')
         self.title()
         self.frames()
         self.canvas = sg.Canvas(parent = self.frame1)
