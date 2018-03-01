@@ -111,7 +111,7 @@ class ImageViewer:
                           ,_('Empty input is not allowed!')
                           )
                           
-    def scroll2start(self,*args):
+    def scroll2start(self,event=None):
         self.canvas.widget.xview_moveto(0)
         self.canvas.widget.yview_moveto(0)
         
@@ -145,28 +145,28 @@ class ImageViewer:
                 ,action   = self.move_top
                 )
                 
-    def move_up(self,*args):
+    def move_up(self,event=None):
         self.canvas.widget.yview_scroll(-1,'units')
     
-    def move_down(self,*args):
+    def move_down(self,event=None):
         self.canvas.widget.yview_scroll(1,'units')
         
-    def move_left(self,*args):
+    def move_left(self,event=None):
         self.canvas.widget.xview_scroll(-1,'units')
         
-    def move_right(self,*args):
+    def move_right(self,event=None):
         self.canvas.widget.xview_scroll(1,'units')
         
-    def move_bottom(self,*args):
+    def move_bottom(self,event=None):
         self.canvas.widget.yview_moveto('1.0')
         
-    def move_top(self,*args):
+    def move_top(self,event=None):
         self.canvas.widget.yview_moveto(0)
 
-    def show(self,*args):
+    def show(self,event=None):
         self.obj.show()
         
-    def close(self,*args):
+    def close(self,event=None):
         self.obj.close()
 
 
