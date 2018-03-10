@@ -25,7 +25,7 @@ class ImageViewer:
         self.scroll2start()
         
     def gui(self):
-        self.obj = sg.objs.new_top(Maximize=False)
+        self.obj = sg.objs.new_top()
         sg.Geometry(parent=self.obj).set('1024x768')
         self.title()
         self.frames()
@@ -172,7 +172,6 @@ class ImageViewer:
 
 if __name__ == '__main__':
     sg.objs.start()
-    sh.objs.mes(Silent=False)
     iv = ImageViewer (parent  = sg.objs.root()
                      ,picture = './resources/Gnu_(PSF).png'
                      )
