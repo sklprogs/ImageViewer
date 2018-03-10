@@ -2,13 +2,13 @@
 
 import gettext, gettext_windows
 gettext_windows.setup_env()
-gettext.install('shared','./locale')
+gettext.install('shared','./resources/locale')
 
-import tkinter as tk
-from PIL import Image as ig
+import tkinter          as tk
+from PIL import Image   as ig
 from PIL import ImageTk as it
-import shared as sh
-import sharedGUI as sg
+import shared           as sh
+import sharedGUI        as sg
 
 
 # How to combine frames, scrollbars and canvas
@@ -42,7 +42,7 @@ class ImageViewer:
         
     def title(self,arg=None):
         if not arg:
-            arg = 'Image:'
+            arg = _('Image') + ':'
         self.obj.title(arg)
     
     def scroll_x(self):
@@ -172,8 +172,9 @@ class ImageViewer:
 
 if __name__ == '__main__':
     sg.objs.start()
+    sh.objs.mes(Silent=False)
     iv = ImageViewer (parent  = sg.objs.root()
-                     ,picture = '/home/pete/pics/240255-1366x768.jpg'
+                     ,picture = './resources/Gnu_(PSF).png'
                      )
     iv.show()
     sg.objs.end()
