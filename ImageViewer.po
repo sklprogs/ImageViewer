@@ -1,0 +1,1365 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ImageViewer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-10 08:39+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Peter Sklyar <skl.progs@gmail.com>\n"
+"Language-Team: Peter Sklyar <skl.progs@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /usr/local/bin/ImageViewer\n"
+
+#: /usr/local/bin/ImageViewer/image_viewer.py:45
+msgid "Image"
+msgstr "Изображение"
+
+#: /usr/local/bin/ImageViewer/image_viewer.py:92
+#: /usr/local/bin/ImageViewer/image_viewer.py:97
+#: /usr/local/bin/ImageViewer/image_viewer.py:110
+#: /usr/local/bin/ImageViewer/sharedGUI.py:75
+#: /usr/local/bin/ImageViewer/sharedGUI.py:80
+#: /usr/local/bin/ImageViewer/sharedGUI.py:362
+#: /usr/local/bin/ImageViewer/sharedGUI.py:378
+#: /usr/local/bin/ImageViewer/sharedGUI.py:389
+#: /usr/local/bin/ImageViewer/sharedGUI.py:399
+#: /usr/local/bin/ImageViewer/sharedGUI.py:430
+#: /usr/local/bin/ImageViewer/sharedGUI.py:452
+#: /usr/local/bin/ImageViewer/sharedGUI.py:482
+#: /usr/local/bin/ImageViewer/sharedGUI.py:513
+#: /usr/local/bin/ImageViewer/sharedGUI.py:528
+#: /usr/local/bin/ImageViewer/sharedGUI.py:539
+#: /usr/local/bin/ImageViewer/sharedGUI.py:749
+#: /usr/local/bin/ImageViewer/sharedGUI.py:760
+#: /usr/local/bin/ImageViewer/sharedGUI.py:801
+#: /usr/local/bin/ImageViewer/sharedGUI.py:913
+#: /usr/local/bin/ImageViewer/sharedGUI.py:976
+#: /usr/local/bin/ImageViewer/sharedGUI.py:992
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1018
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1064
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1145
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1172
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1580
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1742
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2244
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2608
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2625
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2636
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2696
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2701
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2746
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2759
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2908
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2919
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2936
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2985
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3062
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3231
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3242
+#: /usr/local/bin/ImageViewer/shared.py:270
+#: /usr/local/bin/ImageViewer/shared.py:280
+#: /usr/local/bin/ImageViewer/shared.py:294
+#: /usr/local/bin/ImageViewer/shared.py:368
+#: /usr/local/bin/ImageViewer/shared.py:389
+#: /usr/local/bin/ImageViewer/shared.py:434
+#: /usr/local/bin/ImageViewer/shared.py:444
+#: /usr/local/bin/ImageViewer/shared.py:518
+#: /usr/local/bin/ImageViewer/shared.py:524
+#: /usr/local/bin/ImageViewer/shared.py:538
+#: /usr/local/bin/ImageViewer/shared.py:562
+#: /usr/local/bin/ImageViewer/shared.py:581
+#: /usr/local/bin/ImageViewer/shared.py:586
+#: /usr/local/bin/ImageViewer/shared.py:610
+#: /usr/local/bin/ImageViewer/shared.py:634
+#: /usr/local/bin/ImageViewer/shared.py:681
+#: /usr/local/bin/ImageViewer/shared.py:687
+#: /usr/local/bin/ImageViewer/shared.py:706
+#: /usr/local/bin/ImageViewer/shared.py:718
+#: /usr/local/bin/ImageViewer/shared.py:742
+#: /usr/local/bin/ImageViewer/shared.py:768
+#: /usr/local/bin/ImageViewer/shared.py:779
+#: /usr/local/bin/ImageViewer/shared.py:790
+#: /usr/local/bin/ImageViewer/shared.py:800
+#: /usr/local/bin/ImageViewer/shared.py:834
+#: /usr/local/bin/ImageViewer/shared.py:993
+#: /usr/local/bin/ImageViewer/shared.py:1036
+#: /usr/local/bin/ImageViewer/shared.py:1110
+#: /usr/local/bin/ImageViewer/shared.py:1135
+#: /usr/local/bin/ImageViewer/shared.py:1147
+#: /usr/local/bin/ImageViewer/shared.py:1306
+#: /usr/local/bin/ImageViewer/shared.py:1312
+#: /usr/local/bin/ImageViewer/shared.py:1325
+#: /usr/local/bin/ImageViewer/shared.py:1330
+#: /usr/local/bin/ImageViewer/shared.py:1344
+#: /usr/local/bin/ImageViewer/shared.py:1349
+#: /usr/local/bin/ImageViewer/shared.py:1363
+#: /usr/local/bin/ImageViewer/shared.py:1368
+#: /usr/local/bin/ImageViewer/shared.py:1385
+#: /usr/local/bin/ImageViewer/shared.py:1400
+#: /usr/local/bin/ImageViewer/shared.py:1432
+#: /usr/local/bin/ImageViewer/shared.py:1448
+#: /usr/local/bin/ImageViewer/shared.py:1465
+#: /usr/local/bin/ImageViewer/shared.py:1470
+#: /usr/local/bin/ImageViewer/shared.py:1507
+#: /usr/local/bin/ImageViewer/shared.py:1514
+#: /usr/local/bin/ImageViewer/shared.py:1560
+#: /usr/local/bin/ImageViewer/shared.py:1566
+#: /usr/local/bin/ImageViewer/shared.py:1588
+#: /usr/local/bin/ImageViewer/shared.py:1605
+#: /usr/local/bin/ImageViewer/shared.py:1611
+#: /usr/local/bin/ImageViewer/shared.py:1622
+#: /usr/local/bin/ImageViewer/shared.py:1633
+#: /usr/local/bin/ImageViewer/shared.py:1639
+#: /usr/local/bin/ImageViewer/shared.py:1660
+#: /usr/local/bin/ImageViewer/shared.py:1677
+#: /usr/local/bin/ImageViewer/shared.py:1685
+#: /usr/local/bin/ImageViewer/shared.py:1721
+#: /usr/local/bin/ImageViewer/shared.py:1825
+#: /usr/local/bin/ImageViewer/shared.py:1867
+#: /usr/local/bin/ImageViewer/shared.py:1882
+#: /usr/local/bin/ImageViewer/shared.py:1922
+#: /usr/local/bin/ImageViewer/shared.py:1928
+#: /usr/local/bin/ImageViewer/shared.py:1942
+#: /usr/local/bin/ImageViewer/shared.py:1978
+#: /usr/local/bin/ImageViewer/shared.py:1995
+#: /usr/local/bin/ImageViewer/shared.py:2000
+#: /usr/local/bin/ImageViewer/shared.py:2025
+#: /usr/local/bin/ImageViewer/shared.py:2050
+#: /usr/local/bin/ImageViewer/shared.py:2101
+#: /usr/local/bin/ImageViewer/shared.py:2107
+#: /usr/local/bin/ImageViewer/shared.py:2126
+#: /usr/local/bin/ImageViewer/shared.py:2138
+#: /usr/local/bin/ImageViewer/shared.py:2177
+#: /usr/local/bin/ImageViewer/shared.py:2221
+#: /usr/local/bin/ImageViewer/shared.py:2234
+#: /usr/local/bin/ImageViewer/shared.py:2245
+#: /usr/local/bin/ImageViewer/shared.py:2260
+#: /usr/local/bin/ImageViewer/shared.py:2266
+#: /usr/local/bin/ImageViewer/shared.py:2287
+#: /usr/local/bin/ImageViewer/shared.py:2313
+#: /usr/local/bin/ImageViewer/shared.py:2327
+#: /usr/local/bin/ImageViewer/shared.py:2350
+#: /usr/local/bin/ImageViewer/shared.py:2407
+#: /usr/local/bin/ImageViewer/shared.py:2434
+#: /usr/local/bin/ImageViewer/shared.py:2440
+#: /usr/local/bin/ImageViewer/shared.py:2451
+#: /usr/local/bin/ImageViewer/shared.py:2457
+#: /usr/local/bin/ImageViewer/shared.py:2600
+#: /usr/local/bin/ImageViewer/shared.py:2615
+#: /usr/local/bin/ImageViewer/shared.py:2654
+#: /usr/local/bin/ImageViewer/shared.py:2665
+#: /usr/local/bin/ImageViewer/shared.py:2694
+#: /usr/local/bin/ImageViewer/shared.py:2740
+#: /usr/local/bin/ImageViewer/shared.py:2752
+#: /usr/local/bin/ImageViewer/shared.py:2776
+#: /usr/local/bin/ImageViewer/shared.py:2783
+#: /usr/local/bin/ImageViewer/shared.py:2809
+#: /usr/local/bin/ImageViewer/shared.py:3043
+#: /usr/local/bin/ImageViewer/shared.py:3062
+#: /usr/local/bin/ImageViewer/shared.py:3102
+#: /usr/local/bin/ImageViewer/shared.py:3139
+#: /usr/local/bin/ImageViewer/shared.py:3149
+#: /usr/local/bin/ImageViewer/shared.py:3182
+#: /usr/local/bin/ImageViewer/shared.py:3201
+#: /usr/local/bin/ImageViewer/shared.py:3211
+#: /usr/local/bin/ImageViewer/shared.py:3230
+#: /usr/local/bin/ImageViewer/shared.py:3249
+#: /usr/local/bin/ImageViewer/shared.py:3264
+#: /usr/local/bin/ImageViewer/shared.py:3279
+#: /usr/local/bin/ImageViewer/shared.py:3298
+#: /usr/local/bin/ImageViewer/shared.py:3309
+#: /usr/local/bin/ImageViewer/shared.py:3323
+#: /usr/local/bin/ImageViewer/shared.py:3337
+#: /usr/local/bin/ImageViewer/shared.py:3351
+#: /usr/local/bin/ImageViewer/shared.py:3383
+#: /usr/local/bin/ImageViewer/shared.py:3389
+#: /usr/local/bin/ImageViewer/shared.py:3395
+#: /usr/local/bin/ImageViewer/shared.py:3416
+#: /usr/local/bin/ImageViewer/shared.py:3422
+#: /usr/local/bin/ImageViewer/shared.py:3439
+#: /usr/local/bin/ImageViewer/shared.py:3464
+#: /usr/local/bin/ImageViewer/shared.py:3475
+#: /usr/local/bin/ImageViewer/shared.py:3488
+#: /usr/local/bin/ImageViewer/shared.py:3503
+#: /usr/local/bin/ImageViewer/shared.py:3519
+#: /usr/local/bin/ImageViewer/shared.py:3536
+#: /usr/local/bin/ImageViewer/shared.py:3790
+#: /usr/local/bin/ImageViewer/shared.py:3799
+#: /usr/local/bin/ImageViewer/shared.py:3808
+#: /usr/local/bin/ImageViewer/shared.py:3866
+#: /usr/local/bin/ImageViewer/shared.py:3915
+#: /usr/local/bin/ImageViewer/shared.py:3928
+#: /usr/local/bin/ImageViewer/shared.py:4023
+#: /usr/local/bin/ImageViewer/shared.py:4039
+#: /usr/local/bin/ImageViewer/shared.py:4045
+#: /usr/local/bin/ImageViewer/shared.py:4061
+#: /usr/local/bin/ImageViewer/shared.py:4066
+#: /usr/local/bin/ImageViewer/shared.py:4086
+#: /usr/local/bin/ImageViewer/shared.py:4107
+#: /usr/local/bin/ImageViewer/shared.py:4128
+#: /usr/local/bin/ImageViewer/shared.py:4163
+#: /usr/local/bin/ImageViewer/shared.py:4183
+#: /usr/local/bin/ImageViewer/shared.py:4197
+msgid "WARNING"
+msgstr "ПРЕДУПРЕЖДЕНИЕ"
+
+#: /usr/local/bin/ImageViewer/image_viewer.py:93
+#: /usr/local/bin/ImageViewer/sharedGUI.py:40
+#: /usr/local/bin/ImageViewer/sharedGUI.py:418
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2231
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2250
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2272
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2279
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2293
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2305
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2316
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2325
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2336
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2422
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2986
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3202
+#: /usr/local/bin/ImageViewer/shared.py:539
+#: /usr/local/bin/ImageViewer/shared.py:750
+#: /usr/local/bin/ImageViewer/shared.py:1433
+#: /usr/local/bin/ImageViewer/shared.py:1943
+#: /usr/local/bin/ImageViewer/shared.py:2616
+#: /usr/local/bin/ImageViewer/shared.py:2695
+#: /usr/local/bin/ImageViewer/shared.py:3465
+#: /usr/local/bin/ImageViewer/shared.py:4062
+msgid "Wrong input data!"
+msgstr "Недопустимые входные данные!"
+
+#: /usr/local/bin/ImageViewer/image_viewer.py:98
+#: /usr/local/bin/ImageViewer/image_viewer.py:111
+#: /usr/local/bin/ImageViewer/sharedGUI.py:750
+#: /usr/local/bin/ImageViewer/sharedGUI.py:993
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1721
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1743
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2920
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3232
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3243
+#: /usr/local/bin/ImageViewer/shared.py:582
+#: /usr/local/bin/ImageViewer/shared.py:1502
+#: /usr/local/bin/ImageViewer/shared.py:1863
+#: /usr/local/bin/ImageViewer/shared.py:1996
+#: /usr/local/bin/ImageViewer/shared.py:2601
+#: /usr/local/bin/ImageViewer/shared.py:2777
+#: /usr/local/bin/ImageViewer/shared.py:3791
+#: /usr/local/bin/ImageViewer/shared.py:3867
+#: /usr/local/bin/ImageViewer/shared.py:4046
+#: /usr/local/bin/ImageViewer/shared.py:4067
+#: /usr/local/bin/ImageViewer/shared.py:4087
+msgid "Empty input is not allowed!"
+msgstr "Пустые входные данные не допускаются!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:27
+#: /usr/local/bin/ImageViewer/sharedGUI.py:33
+#: /usr/local/bin/ImageViewer/sharedGUI.py:39
+#: /usr/local/bin/ImageViewer/sharedGUI.py:59
+#: /usr/local/bin/ImageViewer/sharedGUI.py:133
+#: /usr/local/bin/ImageViewer/sharedGUI.py:138
+#: /usr/local/bin/ImageViewer/sharedGUI.py:157
+#: /usr/local/bin/ImageViewer/sharedGUI.py:172
+#: /usr/local/bin/ImageViewer/sharedGUI.py:183
+#: /usr/local/bin/ImageViewer/sharedGUI.py:198
+#: /usr/local/bin/ImageViewer/sharedGUI.py:214
+#: /usr/local/bin/ImageViewer/sharedGUI.py:220
+#: /usr/local/bin/ImageViewer/sharedGUI.py:417
+#: /usr/local/bin/ImageViewer/sharedGUI.py:829
+#: /usr/local/bin/ImageViewer/sharedGUI.py:842
+#: /usr/local/bin/ImageViewer/sharedGUI.py:851
+#: /usr/local/bin/ImageViewer/sharedGUI.py:860
+#: /usr/local/bin/ImageViewer/sharedGUI.py:878
+#: /usr/local/bin/ImageViewer/sharedGUI.py:895
+#: /usr/local/bin/ImageViewer/sharedGUI.py:902
+#: /usr/local/bin/ImageViewer/sharedGUI.py:965
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1457
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1720
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1737
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1912
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1925
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1980
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2104
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2230
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2249
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2266
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2271
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2278
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2292
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2304
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2315
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2324
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2335
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2367
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2372
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2421
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2518
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2620
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2627
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2633
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2637
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2648
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2653
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2752
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2756
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2759
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2879
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2901
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2913
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2929
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2941
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3070
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3101
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3201
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3292
+#: /usr/local/bin/ImageViewer/shared.py:205
+#: /usr/local/bin/ImageViewer/shared.py:211
+#: /usr/local/bin/ImageViewer/shared.py:220
+#: /usr/local/bin/ImageViewer/shared.py:229
+#: /usr/local/bin/ImageViewer/shared.py:238
+#: /usr/local/bin/ImageViewer/shared.py:311
+#: /usr/local/bin/ImageViewer/shared.py:332
+#: /usr/local/bin/ImageViewer/shared.py:341
+#: /usr/local/bin/ImageViewer/shared.py:360
+#: /usr/local/bin/ImageViewer/shared.py:381
+#: /usr/local/bin/ImageViewer/shared.py:435
+#: /usr/local/bin/ImageViewer/shared.py:445
+#: /usr/local/bin/ImageViewer/shared.py:602
+#: /usr/local/bin/ImageViewer/shared.py:626
+#: /usr/local/bin/ImageViewer/shared.py:736
+#: /usr/local/bin/ImageViewer/shared.py:749
+#: /usr/local/bin/ImageViewer/shared.py:827
+#: /usr/local/bin/ImageViewer/shared.py:858
+#: /usr/local/bin/ImageViewer/shared.py:1501
+#: /usr/local/bin/ImageViewer/shared.py:1530
+#: /usr/local/bin/ImageViewer/shared.py:1547
+#: /usr/local/bin/ImageViewer/shared.py:1575
+#: /usr/local/bin/ImageViewer/shared.py:1648
+#: /usr/local/bin/ImageViewer/shared.py:1736
+#: /usr/local/bin/ImageViewer/shared.py:1743
+#: /usr/local/bin/ImageViewer/shared.py:1844
+#: /usr/local/bin/ImageViewer/shared.py:1850
+#: /usr/local/bin/ImageViewer/shared.py:1862
+#: /usr/local/bin/ImageViewer/shared.py:2017
+#: /usr/local/bin/ImageViewer/shared.py:2042
+#: /usr/local/bin/ImageViewer/shared.py:2166
+#: /usr/local/bin/ImageViewer/shared.py:2336
+#: /usr/local/bin/ImageViewer/shared.py:2364
+#: /usr/local/bin/ImageViewer/shared.py:2511
+#: /usr/local/bin/ImageViewer/shared.py:2678
+#: /usr/local/bin/ImageViewer/shared.py:2713
+#: /usr/local/bin/ImageViewer/shared.py:2804
+#: /usr/local/bin/ImageViewer/shared.py:4101
+#: /usr/local/bin/ImageViewer/shared.py:4122
+#: /usr/local/bin/ImageViewer/shared.py:4177
+msgid "ERROR"
+msgstr "ОШИБКА"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:28
+#, python-format
+msgid "Failed to enable key combination \"%s\"!"
+msgstr "Не удалось задействовать сочетание клавиш \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:34
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1926
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1981
+#: /usr/local/bin/ImageViewer/shared.py:2222
+#: /usr/local/bin/ImageViewer/shared.py:3384
+#: /usr/local/bin/ImageViewer/shared.py:3390
+#, python-format
+msgid "Wrong input data: \"%s\""
+msgstr "Недопустимые входные данные: \"%s\""
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:46
+msgid "Plain text (UTF-8)"
+msgstr "Обычный текст (UTF-8)"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:47
+#: /usr/local/bin/ImageViewer/sharedGUI.py:48
+msgid "Web-page"
+msgstr "Веб-страница"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:49
+msgid "All files"
+msgstr "Все файлы"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:54
+msgid "Save As:"
+msgstr "Сохранить как:"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:60
+msgid "Failed to select a file!"
+msgstr "Не удалось выбрать файл!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:76
+#, python-format
+msgid "An unknown color \"%s\"!"
+msgstr "Произошла неизвестная ошибка."
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:81
+#: /usr/local/bin/ImageViewer/shared.py:603
+#: /usr/local/bin/ImageViewer/shared.py:627
+#: /usr/local/bin/ImageViewer/shared.py:2018
+#: /usr/local/bin/ImageViewer/shared.py:2043
+#: /usr/local/bin/ImageViewer/shared.py:4102
+#: /usr/local/bin/ImageViewer/shared.py:4123
+#: /usr/local/bin/ImageViewer/shared.py:4178
+#, python-format
+msgid "The condition \"%s\" is not observed!"
+msgstr "Условие \"%s\" не выполнено!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:129
+#: /usr/local/bin/ImageViewer/sharedGUI.py:134
+msgid "Failed to insert the text!"
+msgstr "Не удалось вставить текст!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:139
+#: /usr/local/bin/ImageViewer/sharedGUI.py:158
+#: /usr/local/bin/ImageViewer/sharedGUI.py:173
+#: /usr/local/bin/ImageViewer/sharedGUI.py:184
+#: /usr/local/bin/ImageViewer/sharedGUI.py:199
+#: /usr/local/bin/ImageViewer/sharedGUI.py:221
+#, python-format
+msgid "A logic error: unknown object type: \"%s\"!"
+msgstr "Логическая ошибка: неизвестный тип объекта: \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:178
+msgid "Text:"
+msgstr "Текст:"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:193
+#: /usr/local/bin/ImageViewer/sharedGUI.py:634
+#: /usr/local/bin/ImageViewer/sharedGUI.py:635
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1104
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1105
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1660
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1661
+msgid "Quit"
+msgstr "Выйти"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:195
+msgid "Save and close"
+msgstr "Запомнить и выйти"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:215
+#: /usr/local/bin/ImageViewer/shared.py:743
+#: /usr/local/bin/ImageViewer/shared.py:1508
+#, python-format
+msgid "File \"%s\" has not been found!"
+msgstr "Файл \"%s\" не найден!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:270
+#: /usr/local/bin/ImageViewer/sharedGUI.py:998
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2833
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2844
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3148
+msgid "Title:"
+msgstr "Заголовок"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:312
+msgid "Find:"
+msgstr "Найти:"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:355
+#: /usr/local/bin/ImageViewer/sharedGUI.py:465
+#: /usr/local/bin/ImageViewer/sharedGUI.py:470
+#: /usr/local/bin/ImageViewer/sharedGUI.py:477
+#: /usr/local/bin/ImageViewer/sharedGUI.py:495
+#: /usr/local/bin/ImageViewer/sharedGUI.py:500
+#: /usr/local/bin/ImageViewer/sharedGUI.py:508
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1059
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1371
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1465
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1886
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2225
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2238
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2623
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2636
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2664
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2669
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2748
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2760
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3054
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3086
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3093
+#: /usr/local/bin/ImageViewer/shared.py:322
+#: /usr/local/bin/ImageViewer/shared.py:403
+#: /usr/local/bin/ImageViewer/shared.py:457
+#: /usr/local/bin/ImageViewer/shared.py:505
+#: /usr/local/bin/ImageViewer/shared.py:808
+#: /usr/local/bin/ImageViewer/shared.py:853
+#: /usr/local/bin/ImageViewer/shared.py:1380
+#: /usr/local/bin/ImageViewer/shared.py:1522
+#: /usr/local/bin/ImageViewer/shared.py:1539
+#: /usr/local/bin/ImageViewer/shared.py:1583
+#: /usr/local/bin/ImageViewer/shared.py:1597
+#: /usr/local/bin/ImageViewer/shared.py:1655
+#: /usr/local/bin/ImageViewer/shared.py:1669
+#: /usr/local/bin/ImageViewer/shared.py:1714
+#: /usr/local/bin/ImageViewer/shared.py:1727
+#: /usr/local/bin/ImageViewer/shared.py:1831
+#: /usr/local/bin/ImageViewer/shared.py:1877
+#: /usr/local/bin/ImageViewer/shared.py:1909
+#: /usr/local/bin/ImageViewer/shared.py:2154
+#: /usr/local/bin/ImageViewer/shared.py:2253
+#: /usr/local/bin/ImageViewer/shared.py:2342
+#: /usr/local/bin/ImageViewer/shared.py:2356
+#: /usr/local/bin/ImageViewer/shared.py:2394
+#: /usr/local/bin/ImageViewer/shared.py:2401
+#: /usr/local/bin/ImageViewer/shared.py:2586
+#: /usr/local/bin/ImageViewer/shared.py:2647
+#: /usr/local/bin/ImageViewer/shared.py:2671
+#: /usr/local/bin/ImageViewer/shared.py:2688
+#: /usr/local/bin/ImageViewer/shared.py:2702
+#: /usr/local/bin/ImageViewer/shared.py:2733
+#: /usr/local/bin/ImageViewer/shared.py:3087
+#: /usr/local/bin/ImageViewer/shared.py:3843
+#: /usr/local/bin/ImageViewer/shared.py:3888
+#: /usr/local/bin/ImageViewer/shared.py:4017
+#: /usr/local/bin/ImageViewer/shared.py:4138
+#: /usr/local/bin/ImageViewer/shared.py:4144
+#: /usr/local/bin/ImageViewer/shared.py:4150
+msgid "INFO"
+msgstr "ИНФОРМАЦИЯ"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:356
+#: /usr/local/bin/ImageViewer/sharedGUI.py:478
+#: /usr/local/bin/ImageViewer/sharedGUI.py:509
+msgid "No matches!"
+msgstr "Совпадений нет!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:363
+#: /usr/local/bin/ImageViewer/sharedGUI.py:379
+#: /usr/local/bin/ImageViewer/sharedGUI.py:390
+#: /usr/local/bin/ImageViewer/sharedGUI.py:400
+#: /usr/local/bin/ImageViewer/sharedGUI.py:431
+#: /usr/local/bin/ImageViewer/sharedGUI.py:453
+#: /usr/local/bin/ImageViewer/sharedGUI.py:483
+#: /usr/local/bin/ImageViewer/sharedGUI.py:514
+#: /usr/local/bin/ImageViewer/sharedGUI.py:529
+#: /usr/local/bin/ImageViewer/sharedGUI.py:540
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2654
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2670
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2686
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2702
+#: /usr/local/bin/ImageViewer/shared.py:271
+#: /usr/local/bin/ImageViewer/shared.py:281
+#: /usr/local/bin/ImageViewer/shared.py:295
+#: /usr/local/bin/ImageViewer/shared.py:369
+#: /usr/local/bin/ImageViewer/shared.py:390
+#: /usr/local/bin/ImageViewer/shared.py:525
+#: /usr/local/bin/ImageViewer/shared.py:587
+#: /usr/local/bin/ImageViewer/shared.py:611
+#: /usr/local/bin/ImageViewer/shared.py:635
+#: /usr/local/bin/ImageViewer/shared.py:688
+#: /usr/local/bin/ImageViewer/shared.py:707
+#: /usr/local/bin/ImageViewer/shared.py:719
+#: /usr/local/bin/ImageViewer/shared.py:769
+#: /usr/local/bin/ImageViewer/shared.py:780
+#: /usr/local/bin/ImageViewer/shared.py:791
+#: /usr/local/bin/ImageViewer/shared.py:801
+#: /usr/local/bin/ImageViewer/shared.py:835
+#: /usr/local/bin/ImageViewer/shared.py:1313
+#: /usr/local/bin/ImageViewer/shared.py:1331
+#: /usr/local/bin/ImageViewer/shared.py:1350
+#: /usr/local/bin/ImageViewer/shared.py:1369
+#: /usr/local/bin/ImageViewer/shared.py:1386
+#: /usr/local/bin/ImageViewer/shared.py:1401
+#: /usr/local/bin/ImageViewer/shared.py:1449
+#: /usr/local/bin/ImageViewer/shared.py:1471
+#: /usr/local/bin/ImageViewer/shared.py:1567
+#: /usr/local/bin/ImageViewer/shared.py:1589
+#: /usr/local/bin/ImageViewer/shared.py:1612
+#: /usr/local/bin/ImageViewer/shared.py:1623
+#: /usr/local/bin/ImageViewer/shared.py:1640
+#: /usr/local/bin/ImageViewer/shared.py:1661
+#: /usr/local/bin/ImageViewer/shared.py:1686
+#: /usr/local/bin/ImageViewer/shared.py:1826
+#: /usr/local/bin/ImageViewer/shared.py:1868
+#: /usr/local/bin/ImageViewer/shared.py:1883
+#: /usr/local/bin/ImageViewer/shared.py:1929
+#: /usr/local/bin/ImageViewer/shared.py:2001
+#: /usr/local/bin/ImageViewer/shared.py:2026
+#: /usr/local/bin/ImageViewer/shared.py:2051
+#: /usr/local/bin/ImageViewer/shared.py:2108
+#: /usr/local/bin/ImageViewer/shared.py:2127
+#: /usr/local/bin/ImageViewer/shared.py:2139
+#: /usr/local/bin/ImageViewer/shared.py:2178
+#: /usr/local/bin/ImageViewer/shared.py:2235
+#: /usr/local/bin/ImageViewer/shared.py:2246
+#: /usr/local/bin/ImageViewer/shared.py:2267
+#: /usr/local/bin/ImageViewer/shared.py:2288
+#: /usr/local/bin/ImageViewer/shared.py:2314
+#: /usr/local/bin/ImageViewer/shared.py:2328
+#: /usr/local/bin/ImageViewer/shared.py:2351
+#: /usr/local/bin/ImageViewer/shared.py:2408
+#: /usr/local/bin/ImageViewer/shared.py:2441
+#: /usr/local/bin/ImageViewer/shared.py:2458
+#: /usr/local/bin/ImageViewer/shared.py:2666
+#: /usr/local/bin/ImageViewer/shared.py:2741
+#: /usr/local/bin/ImageViewer/shared.py:2753
+#: /usr/local/bin/ImageViewer/shared.py:2784
+#: /usr/local/bin/ImageViewer/shared.py:2810
+#: /usr/local/bin/ImageViewer/shared.py:3103
+#: /usr/local/bin/ImageViewer/shared.py:3140
+#: /usr/local/bin/ImageViewer/shared.py:3150
+#: /usr/local/bin/ImageViewer/shared.py:3183
+#: /usr/local/bin/ImageViewer/shared.py:3202
+#: /usr/local/bin/ImageViewer/shared.py:3212
+#: /usr/local/bin/ImageViewer/shared.py:3231
+#: /usr/local/bin/ImageViewer/shared.py:3250
+#: /usr/local/bin/ImageViewer/shared.py:3265
+#: /usr/local/bin/ImageViewer/shared.py:3280
+#: /usr/local/bin/ImageViewer/shared.py:3299
+#: /usr/local/bin/ImageViewer/shared.py:3310
+#: /usr/local/bin/ImageViewer/shared.py:3324
+#: /usr/local/bin/ImageViewer/shared.py:3338
+#: /usr/local/bin/ImageViewer/shared.py:3352
+#: /usr/local/bin/ImageViewer/shared.py:3396
+#: /usr/local/bin/ImageViewer/shared.py:3423
+#: /usr/local/bin/ImageViewer/shared.py:3440
+#: /usr/local/bin/ImageViewer/shared.py:3476
+#: /usr/local/bin/ImageViewer/shared.py:3489
+#: /usr/local/bin/ImageViewer/shared.py:3504
+#: /usr/local/bin/ImageViewer/shared.py:3520
+#: /usr/local/bin/ImageViewer/shared.py:3537
+#: /usr/local/bin/ImageViewer/shared.py:3916
+#: /usr/local/bin/ImageViewer/shared.py:3929
+#: /usr/local/bin/ImageViewer/shared.py:4108
+#: /usr/local/bin/ImageViewer/shared.py:4129
+#: /usr/local/bin/ImageViewer/shared.py:4164
+#: /usr/local/bin/ImageViewer/shared.py:4184
+#: /usr/local/bin/ImageViewer/shared.py:4198
+msgid "Operation has been canceled."
+msgstr "Операция отменена."
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:466
+#: /usr/local/bin/ImageViewer/sharedGUI.py:496
+msgid "Only one match has been found!"
+msgstr "Найдено 1 совпадение!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:471
+msgid "No more matches, continuing from the top!"
+msgstr "Совпадений больше нет, поиск продолжен с начала!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:501
+msgid "No more matches, continuing from the bottom!"
+msgstr "Совпадений больше нет, поиск продолжен с конца!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:761
+#: /usr/local/bin/ImageViewer/sharedGUI.py:914
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1146
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1173
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2909
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2937
+msgid "The parent has already been destroyed."
+msgstr "Родительский виджет уже был разрушен."
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:802
+#, python-format
+msgid "Failed to remove the tag %s in the widget %s in positions %s-%s!"
+msgstr "Не удалось удалить тэг %s в виджете %s для позиций %s-%s!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:814
+msgid "DEBUG-ERROR"
+msgstr "ОШИБКА ПРИ ОТЛАДКЕ"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:815
+#: /usr/local/bin/ImageViewer/sharedGUI.py:903
+#, python-format
+msgid "Element \"%s\" has not been found in fragment \"%s\"!"
+msgstr "Элемент \"%s\" не был найден во фрагменте \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:830
+#, python-format
+msgid "Failed to add tag \"%s\" for positions %s-%s!"
+msgstr "Не удалось добавить тэг \"%s\" для позиций %s-%s!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:843
+#, python-format
+msgid "Failed to configure tag \"%s\" to have the background of color \"%s\"!"
+msgstr "Не удалось назначить тэгу \"%s\" фон \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:852
+#, python-format
+msgid "Failed to configure tag \"%s\" to have the foreground of color \"%s\"!"
+msgstr "Не удалось назначить тэгу \"%s\" цвет \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:861
+#, python-format
+msgid "Failed to configure tag \"%s\" to have the font \"%s\"!"
+msgstr "Не удалось назначить тэгу \"%s\" шрифт \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:879
+#, python-format
+msgid "Failed to insert mark \"%s\" in position \"%s\"!"
+msgstr "Не удается вставить метку \"%s\" для позиции \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:896
+#, python-format
+msgid "Failed to remove mark \"%s\"!"
+msgstr "Не удалось удалить метку \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:966
+#: /usr/local/bin/ImageViewer/sharedGUI.py:977
+#, python-format
+msgid "Failed to shift screen to label \"%s\"!"
+msgstr "Не удалось сдвинуть экран до метки \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1012
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1053
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1575
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2916
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2946
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3158
+#: /usr/local/bin/ImageViewer/shared.py:193
+#: /usr/local/bin/ImageViewer/shared.py:2521
+#: /usr/local/bin/ImageViewer/shared.py:2974
+#: /usr/local/bin/ImageViewer/shared.py:3377
+#: /usr/local/bin/ImageViewer/shared.py:3702
+#: /usr/local/bin/ImageViewer/shared.py:3715
+msgid "DEBUG"
+msgstr "ОТЛАДКА"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1013
+#, python-format
+msgid "Got position: \"%s\""
+msgstr "Получена позиция: \"%s\""
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1019
+msgid "Cannot return a cursor position!"
+msgstr "Не удалось вернуть позицию курсора!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1054
+#, python-format
+msgid "%d tags to assign"
+msgstr "Создание %d тэгов"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1060
+msgid "Spelling seems to be correct."
+msgstr "Ошибок правописания не обнаружено."
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1065
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2373
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2621
+#: /usr/local/bin/ImageViewer/shared.py:212
+#: /usr/local/bin/ImageViewer/shared.py:312
+#: /usr/local/bin/ImageViewer/shared.py:361
+#: /usr/local/bin/ImageViewer/shared.py:382
+#: /usr/local/bin/ImageViewer/shared.py:737
+#: /usr/local/bin/ImageViewer/shared.py:1744
+#: /usr/local/bin/ImageViewer/shared.py:3044
+#: /usr/local/bin/ImageViewer/shared.py:3063
+msgid "Not enough input data!"
+msgstr "Недостаточно входных данных!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1372
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1887
+msgid "Nothing to do!"
+msgstr "Действие не требуется."
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1458
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1913
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2634
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2757
+#: /usr/local/bin/ImageViewer/shared.py:342
+#: /usr/local/bin/ImageViewer/shared.py:1851
+#, python-format
+msgid ""
+"An unknown mode \"%s\"!\n"
+"\n"
+"The following modes are supported: \"%s\"."
+msgstr ""
+"Неизвестный режим \"%s\"!\n"
+"\n"
+"Поддерживаются следующие режимы: \"%s\"."
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1466
+#, python-format
+msgid "Changing \"%s\" widget geometry to \"%dx%d+%d+%d\""
+msgstr "Изменение геометрии виджета \"%s\" на \"%dx%d+%d+%d\""
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1576
+#, python-format
+msgid "Remove item #%d"
+msgstr "Удаление элемента №%d"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1581
+#, python-format
+msgid "No item #%d!"
+msgstr "Элемент №%d отсутствует!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:1738
+#, python-format
+msgid "Item \"%s\" is not in list!"
+msgstr "Элемент \"%s\" не в списке!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2105
+msgid "Failed to return selection in the Tkinter widget!"
+msgstr "Не удается вернуть диапазон выделения в виджете Tkinter!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2164
+msgid "Paste a special symbol"
+msgstr "Вставить специальный символ"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2226
+#, python-format
+msgid "Saved geometry: %s"
+msgstr "Сохранена геометрия: %s"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2239
+#, python-format
+msgid "Restoring geometry: %s"
+msgstr "Восстановление геометрии: %s"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2245
+msgid "Failed to restore geometry!"
+msgstr "Не удалось восстановить геометрию!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2267
+msgid "Failed to change window properties!"
+msgstr "Не удалось изменить свойства окна!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2368
+msgid "Failed to get the window handle!"
+msgstr "Не удалось получить дескриптор окна!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2397
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2445
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2448
+msgid "Please wait..."
+msgstr "Подождите..."
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2519
+#, python-format
+msgid "Wrong font: \"%s\"!"
+msgstr "Неправильный шрифт: \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2609
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2836
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2844
+msgid "Message"
+msgstr "Сообщение"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2627
+msgid "CRITICAL"
+msgstr "КРИТИЧЕСКАЯ ОШИБКА"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2629
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2637
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2680
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2685
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2750
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2760
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2802
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2808
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3078
+#: /usr/local/bin/ImageViewer/shared.py:156
+msgid "QUESTION"
+msgstr "ВОПРОС"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2803
+msgid "Yes"
+msgstr "Да"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2804
+msgid "No"
+msgstr "Нет"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2807
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3342
+msgid "Cancel"
+msgstr "Нет"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2811
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2825
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3356
+msgid "Accept and close"
+msgstr "Принять и закрыть"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2819
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3344
+msgid "Reject and close"
+msgstr "Отказаться и закрыть"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2880
+#, python-format
+msgid "Picture \"%s\" was not found!"
+msgstr "Изображение \"%s\" не найдено!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2902
+msgid "A clipboard error has occurred!"
+msgstr "Ошибка буфера обмена!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2914
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2942
+msgid "An unknown error has occurred."
+msgstr "Произошла неизвестная ошибка."
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:2930
+msgid "Failed to paste the clipboard contents!"
+msgstr "Ошибка вставки из буфера обмена."
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3055
+#, python-format
+msgid "Add %s"
+msgstr "Добавить %s"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3094
+#, python-format
+msgid "Close %d objs"
+msgstr "Закрыть %d объектов"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3102
+#, python-format
+msgid "Widget \"%s\" does not have a \"close\" action!"
+msgstr "У виджета \"%s\" нет действия \"close\"!"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3159
+#: /usr/local/bin/ImageViewer/shared.py:2689
+#: /usr/local/bin/ImageViewer/shared.py:2734
+msgid "Nothing to do."
+msgstr "Действие не требуется."
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3261
+msgid "Text with instructions:"
+msgstr "Текст с инструкцией:"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3293
+msgid "Parent is not supported, using the default one."
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3348
+msgid "Clear"
+msgstr "Очистить"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3350
+msgid "Delete all text"
+msgstr "Удалить весь текст"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3404
+msgid "Manage subscriptions"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3433
+msgid "Add"
+msgstr "Добавить"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3440
+msgid "Remove"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3518
+msgid "Compare texts:"
+msgstr "Сравнение текстов"
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3636
+msgid "Enter a channel URL, one URL per a line:"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3638
+#, python-format
+msgid "Patterns: %s"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/sharedGUI.py:3639
+msgid "Manage blacklist"
+msgstr "Управление черным списком"
+
+#: /usr/local/bin/ImageViewer/shared.py:157
+#, python-format
+msgid "ATTENTION: Do yo really want to rewrite file \"%s\"?"
+msgstr "ВНИМАНИЕ: Перезаписать файл \"%s\"?"
+
+#: /usr/local/bin/ImageViewer/shared.py:194
+#, python-format
+msgid "Custom arguments: \"%s\""
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:206
+#, python-format
+msgid "Failed to run \"%s\"!"
+msgstr "Не удалось запустить \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/shared.py:221
+#: /usr/local/bin/ImageViewer/shared.py:230
+#: /usr/local/bin/ImageViewer/shared.py:239
+msgid "Unable to open the file in an external program. You should probably check the file associations."
+msgstr "Не удается открыть файл во внешней программе. Возможно, Вам стоит проверить ассоциации файлов."
+
+#: /usr/local/bin/ImageViewer/shared.py:323
+#: /usr/local/bin/ImageViewer/shared.py:1832
+#, python-format
+msgid "Write file \"%s\""
+msgstr "Запись файла \"%s\""
+
+#: /usr/local/bin/ImageViewer/shared.py:333
+#: /usr/local/bin/ImageViewer/shared.py:1845
+#, python-format
+msgid "Unable to write file \"%s\"!"
+msgstr "Не удается записать файл \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/shared.py:421
+msgid "***** Start of log. *****"
+msgstr "***** Начало записи лога. *****"
+
+#: /usr/local/bin/ImageViewer/shared.py:506
+#: /usr/local/bin/ImageViewer/shared.py:1910
+#, python-format
+msgid "Entries deleted: %d (%d-%d)"
+msgstr "Удалено вхождений: %d (%d-%d)"
+
+#: /usr/local/bin/ImageViewer/shared.py:519
+#: /usr/local/bin/ImageViewer/shared.py:682
+#: /usr/local/bin/ImageViewer/shared.py:1923
+#: /usr/local/bin/ImageViewer/shared.py:2102
+#, python-format
+msgid "File \"%s\" is not sortable!"
+msgstr "Файл \"%s\" не подлежит сортировке!"
+
+#: /usr/local/bin/ImageViewer/shared.py:563
+#, python-format
+msgid "Dictionary \"%s\": Incorrect line #%d: \"%s\"!"
+msgstr "Словарь \"%s\": Неправильная строка №%d: \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/shared.py:809
+#: /usr/local/bin/ImageViewer/shared.py:2155
+#, python-format
+msgid "Load file \"%s\""
+msgstr "Загрузка файла \"%s\""
+
+#: /usr/local/bin/ImageViewer/shared.py:828
+#: /usr/local/bin/ImageViewer/shared.py:2167
+#, python-format
+msgid "Unable to read file \"%s\"!"
+msgstr "Не удается прочитать файл \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/shared.py:854
+#, python-format
+msgid "Convert \"%s\" to an integer"
+msgstr "Конвертация \"%s\" в целое число"
+
+#: /usr/local/bin/ImageViewer/shared.py:859
+#, python-format
+msgid "Integer is required at input, but found \"%s\"! Return 0"
+msgstr "На входе должно быть целое число, но получено \"%s\"! Возвращаю 0"
+
+#: /usr/local/bin/ImageViewer/shared.py:994
+#, python-format
+msgid "Different number of opening and closing brackets: \"%s\": %d; \"%s\": %d!"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:1037
+msgid "Empty strings are not supported!"
+msgstr "Поддерживаются только непустые строки!"
+
+#: /usr/local/bin/ImageViewer/shared.py:1111
+msgid "Commas and/or semicolons or line breaks can be used, but not altogether!"
+msgstr "Можно использовать запятые и/или точки с запятой или переносы строк, но не все сразу!"
+
+#: /usr/local/bin/ImageViewer/shared.py:1136
+#, python-format
+msgid "Failed to convert \"%s\" to an integer!"
+msgstr "Не удалось конвертировать \"%s\" в целое число!"
+
+#: /usr/local/bin/ImageViewer/shared.py:1148
+#, python-format
+msgid "Failed to convert \"%s\" to a floating-point number!"
+msgstr "Не удалось конвертировать \"%s\" в число с плавающей точкой!"
+
+#: /usr/local/bin/ImageViewer/shared.py:1307
+#: /usr/local/bin/ImageViewer/shared.py:1326
+#: /usr/local/bin/ImageViewer/shared.py:1345
+#: /usr/local/bin/ImageViewer/shared.py:1364
+#: /usr/local/bin/ImageViewer/shared.py:1466
+msgid "Set time parameters are incorrect or not supported."
+msgstr "Заданные параметры времени неверны или не поддерживаются."
+
+#: /usr/local/bin/ImageViewer/shared.py:1381
+msgid "Note: it will be Monday!"
+msgstr "Обратите внимание: указанная дата - понедельник!"
+
+#: /usr/local/bin/ImageViewer/shared.py:1407
+msgid "Jan"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:1409
+msgid "Feb"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:1411
+msgid "Mar"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:1413
+msgid "Apr"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:1415
+msgid "May"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:1417
+msgid "Jun"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:1419
+msgid "Jul"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:1421
+msgid "Aug"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:1423
+msgid "Sep"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:1425
+msgid "Oct"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:1427
+msgid "Nov"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:1429
+msgid "Dec"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:1515
+#, python-format
+msgid "The object \"%s\" is not a file!"
+msgstr "Объект \"%s\" не является файлом!"
+
+#: /usr/local/bin/ImageViewer/shared.py:1523
+#: /usr/local/bin/ImageViewer/shared.py:2357
+#, python-format
+msgid "Copy \"%s\" to \"%s\""
+msgstr "Копирование \"%s\" в \"%s\""
+
+#: /usr/local/bin/ImageViewer/shared.py:1531
+#, python-format
+msgid "Failed to copy file \"%s\" to \"%s\"!"
+msgstr "Не удалось скопировать файл \"%s\" в \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/shared.py:1540
+#, python-format
+msgid "Move \"%s\" to \"%s\""
+msgstr "Перемещение \"%s\" в \"%s\""
+
+#: /usr/local/bin/ImageViewer/shared.py:1548
+#, python-format
+msgid "Failed to move \"%s\" to \"%s\"!"
+msgstr "Не удалось переместить \"%s\" в \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/shared.py:1561
+#: /usr/local/bin/ImageViewer/shared.py:1634
+#, python-format
+msgid "Failed to get the date of the file \"%s\"!"
+msgstr "Не удалось определить дату файла \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/shared.py:1576
+#, python-format
+msgid "Unable to copy the file \"%s\" to iself!"
+msgstr "Нельзя скопировать файл \"%s\" сам в себя!"
+
+#: /usr/local/bin/ImageViewer/shared.py:1584
+#: /usr/local/bin/ImageViewer/shared.py:1656
+#: /usr/local/bin/ImageViewer/shared.py:1878
+msgid "Operation has been canceled by the user."
+msgstr "Операция отменена пользователем."
+
+#: /usr/local/bin/ImageViewer/shared.py:1598
+#: /usr/local/bin/ImageViewer/shared.py:2254
+#, python-format
+msgid "Delete \"%s\""
+msgstr "Удаление \"%s\""
+
+#: /usr/local/bin/ImageViewer/shared.py:1606
+#, python-format
+msgid "Failed to delete file \"%s\"!"
+msgstr "Не удается удалить файл \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/shared.py:1649
+msgid "Moving is not necessary, because the source and destination are identical."
+msgstr "Перемещение не требуется, поскольку на входе и выходе указан один и тот же объект."
+
+#: /usr/local/bin/ImageViewer/shared.py:1670
+#, python-format
+msgid "Change the time of the file \"%s\" to %s"
+msgstr "Изменение времени файла \"%s\" на %s"
+
+#: /usr/local/bin/ImageViewer/shared.py:1678
+#, python-format
+msgid "Failed to change the time of the file \"%s\" to \"%s\"!"
+msgstr "Не удалось изменить время файла \"%s\" на \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/shared.py:1715
+#: /usr/local/bin/ImageViewer/shared.py:2343
+#, python-format
+msgid "Directory \"%s\" already exists."
+msgstr "Каталог \"%s\" уже существует."
+
+#: /usr/local/bin/ImageViewer/shared.py:1722
+#, python-format
+msgid "The path \"%s\" is invalid!"
+msgstr "Путь \"%s\" неверен!"
+
+#: /usr/local/bin/ImageViewer/shared.py:1728
+#, python-format
+msgid "Create directory \"%s\""
+msgstr "Создание каталога \"%s\""
+
+#: /usr/local/bin/ImageViewer/shared.py:1737
+#, python-format
+msgid "Failed to create directory \"%s\"!"
+msgstr "Не удается создать каталог \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/shared.py:1979
+msgid "The following lines cannot be parsed:"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:2261
+#, python-format
+msgid "Failed to delete directory \"%s\"! Delete it manually."
+msgstr "Не удается удалить каталог \"%s\"! Удалите его вручную."
+
+#: /usr/local/bin/ImageViewer/shared.py:2337
+#, python-format
+msgid "Unable to copy \"%s\" to iself!"
+msgstr "Нельзя скопировать \"%s\" сам в себя!"
+
+#: /usr/local/bin/ImageViewer/shared.py:2365
+#, python-format
+msgid "Failed to copy \"%s\" to \"%s\"!"
+msgstr "Не удалось скопировать \"%s\" в \"%s\"!"
+
+#: /usr/local/bin/ImageViewer/shared.py:2381
+msgid "The following sections and/or keys are missing:"
+msgstr "Отсутствуют следующие разделы и/или ключи:"
+
+#: /usr/local/bin/ImageViewer/shared.py:2395
+#, python-format
+msgid "New value of the key \"%s\" has been loaded."
+msgstr "Загружено новое значение ключа \"%s\"."
+
+#: /usr/local/bin/ImageViewer/shared.py:2402
+#, python-format
+msgid "Keys loaded in total: %d, whereas %d are modified."
+msgstr "Всего загружено ключей: %d, из них измененных: %d"
+
+#: /usr/local/bin/ImageViewer/shared.py:2428
+#, python-format
+msgid "Missing sections: %d"
+msgstr "Отсутствующих разделов: %d"
+
+#: /usr/local/bin/ImageViewer/shared.py:2430
+#, python-format
+msgid "Missing keys: %d"
+msgstr "Отсутствующих ключей: %d"
+
+#: /usr/local/bin/ImageViewer/shared.py:2432
+msgid "The default configuration has been loaded."
+msgstr "Загружена конфигурация по умолчанию."
+
+#: /usr/local/bin/ImageViewer/shared.py:2452
+#, python-format
+msgid "Failed to read the configuration file \"%s\". This file must share the same directory with the program and have UTF-8 encoding (no BOM) and UNIX line break type."
+msgstr "Не удается прочитать конфигурационный файл \"%s\". Этот файл должен находиться в одном каталоге с программой и иметь кодировку utf-8 (без BOM), тип разрыва строки - UNIX."
+
+#: /usr/local/bin/ImageViewer/shared.py:2512
+#, python-format
+msgid "Failed to open URL \"%s\" in a default browser!"
+msgstr "Не удалось открыть адрес \"%s\" в браузере по умолчанию!"
+
+#: /usr/local/bin/ImageViewer/shared.py:2562
+msgid "Differences:"
+msgstr "Различия:"
+
+#: /usr/local/bin/ImageViewer/shared.py:2587
+msgid "Texts are identical!"
+msgstr "Различий нет!"
+
+#: /usr/local/bin/ImageViewer/shared.py:2648
+#, python-format
+msgid "Delete the symbolic link \"%s\""
+msgstr "Удаление ярлыка \"%s\""
+
+#: /usr/local/bin/ImageViewer/shared.py:2655
+#, python-format
+msgid "Failed to remove shortcut \"%s\". Remove it manually and press OK."
+msgstr "Не удается удалить ярлык \"%s\". Удалите его вручную и нажмите OK."
+
+#: /usr/local/bin/ImageViewer/shared.py:2672
+#: /usr/local/bin/ImageViewer/shared.py:2703
+#, python-format
+msgid "Create a symbolic link \"%s\""
+msgstr "Создание ярлыка \"%s\""
+
+#: /usr/local/bin/ImageViewer/shared.py:2679
+#: /usr/local/bin/ImageViewer/shared.py:2714
+#, python-format
+msgid "Failed to create shortcut \"%s\". Create it manually and press OK."
+msgstr "Не удается создать ярлык \"%s\". Создайте его вручную и нажмите OK."
+
+#: /usr/local/bin/ImageViewer/shared.py:2805
+msgid "Failed to load an e-mail client."
+msgstr "Не удалось загрузить почтовый клиент."
+
+#: /usr/local/bin/ImageViewer/shared.py:3088
+msgid "Analyze the text"
+msgstr "Анализ текста"
+
+#: /usr/local/bin/ImageViewer/shared.py:3417
+#, python-format
+msgid "Failed to find words of paragraph #%d!"
+msgstr "Не удалось найти слова абзаца #%d!"
+
+#: /usr/local/bin/ImageViewer/shared.py:3800
+#: /usr/local/bin/ImageViewer/shared.py:3809
+msgid "The pool is empty!"
+msgstr "Пул пуст!"
+
+#: /usr/local/bin/ImageViewer/shared.py:3844
+#, python-format
+msgid "The operation has taken %f s."
+msgstr "Операция завершена за %f с."
+
+#: /usr/local/bin/ImageViewer/shared.py:3889
+#, python-format
+msgid "Set the max number of rows to %d"
+msgstr "Задать максимальное число столбцов: %d"
+
+#: /usr/local/bin/ImageViewer/shared.py:4018
+#, python-format
+msgid "[OK]: \"%s\""
+msgstr "[Успешно]: \"%s\""
+
+#: /usr/local/bin/ImageViewer/shared.py:4024
+#, python-format
+msgid "[FAILED]: \"%s\""
+msgstr "[ОШИБКА]: \"%s\""
+
+#: /usr/local/bin/ImageViewer/shared.py:4040
+#, python-format
+msgid "Unable to decode \"%s\"!"
+msgstr "Не удалось декодировать %s!"
+
+#: /usr/local/bin/ImageViewer/shared.py:4139
+msgid "No references have been found!"
+msgstr "Ориентиры не найдены!"
+
+#: /usr/local/bin/ImageViewer/shared.py:4145
+msgid "No references to the right!"
+msgstr ""
+
+#: /usr/local/bin/ImageViewer/shared.py:4151
+msgid "No references to the left!"
+msgstr ""
+

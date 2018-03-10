@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 
-import gettext, gettext_windows
-gettext_windows.setup_env()
-gettext.install('shared','./resources/locale')
-
 import tkinter          as tk
 from PIL import Image   as ig
 from PIL import ImageTk as it
 import shared           as sh
 import sharedGUI        as sg
+
+import gettext, gettext_windows
+gettext_windows.setup_env()
+gettext.install('ImageViewer','./resources/locale')
 
 
 # How to combine frames, scrollbars and canvas
