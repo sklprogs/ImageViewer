@@ -8,7 +8,7 @@ import sharedGUI        as sg
 
 import gettext, gettext_windows
 gettext_windows.setup_env()
-gettext.install('ImageViewer','./resources/locale')
+gettext.install('ImageViewer','../resources/locale')
 
 
 # How to combine frames, scrollbars and canvas
@@ -173,7 +173,7 @@ class ImageViewer:
 if __name__ == '__main__':
     sg.objs.start()
     iv = ImageViewer (parent  = sg.objs.root()
-                     ,picture = './resources/Gnu_(PSF).png'
+                     ,picture = '../resources/Gnu_(PSF).png'
                      )
     iv.show()
     sg.objs.end()
