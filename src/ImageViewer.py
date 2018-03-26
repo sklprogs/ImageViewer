@@ -21,8 +21,11 @@ class ImageViewer:
         self.gui()
         self.pic()
         # Set the scrolling region only after setting a picture
-        self.scrollregion()
-        self.scroll2start()
+        if self._size:
+            self.canvas.region (x = self._size[0]
+                               ,y = self._size[1]
+                               )
+        self.canvas.scroll2start()
         
     def gui(self):
         self.obj = sg.objs.new_top()
@@ -87,23 +90,6 @@ class ImageViewer:
                           ,_('WARNING')
                           ,_('Empty input is not allowed!')
                           )
-            
-    def scrollregion(self):
-        if self._size:
-            x, y = self._size
-            self.canvas.widget.configure (scrollregion = (-x/2,-y/2
-                                                         , x/2, y/2
-                                                         )
-                                         )
-        else:
-            sh.log.append ('ImageViewer.scrollregion'
-                          ,_('WARNING')
-                          ,_('Empty input is not allowed!')
-                          )
-                          
-    def scroll2start(self,event=None):
-        self.canvas.widget.xview_moveto(0)
-        self.canvas.widget.yview_moveto(0)
         
     def bindings(self):
         sg.bind (obj      = self.obj
