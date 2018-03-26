@@ -25,7 +25,7 @@ class ImageViewer:
             self.canvas.region (x = self._size[0]
                                ,y = self._size[1]
                                )
-        self.canvas.scroll2start()
+        self.canvas.scroll()
         
     def gui(self):
         self.obj = sg.objs.new_top()
