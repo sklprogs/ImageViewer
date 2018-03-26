@@ -98,46 +98,36 @@ class ImageViewer:
                 )
         sg.bind (obj      = self.obj
                 ,bindings = '<Down>'
-                ,action   = self.move_down
+                ,action   = self.canvas.move_down
                 )
         sg.bind (obj      = self.obj
                 ,bindings = '<Up>'
-                ,action   = self.move_up
+                ,action   = self.canvas.move_up
                 )
         sg.bind (obj      = self.obj
                 ,bindings = '<Left>'
-                ,action   = self.move_left
+                ,action   = self.canvas.move_left
                 )
         sg.bind (obj      = self.obj
                 ,bindings = '<Right>'
-                ,action   = self.move_right
+                ,action   = self.canvas.move_right
                 )
         sg.bind (obj      = self.obj
                 ,bindings = '<Next>'
-                ,action   = self.move_bottom
+                ,action   = self.canvas.move_page_down
                 )
         sg.bind (obj      = self.obj
                 ,bindings = '<Prior>'
-                ,action   = self.move_top
+                ,action   = self.canvas.move_page_up
                 )
-                
-    def move_up(self,event=None):
-        self.canvas.widget.yview_scroll(-1,'units')
-    
-    def move_down(self,event=None):
-        self.canvas.widget.yview_scroll(1,'units')
-        
-    def move_left(self,event=None):
-        self.canvas.widget.xview_scroll(-1,'units')
-        
-    def move_right(self,event=None):
-        self.canvas.widget.xview_scroll(1,'units')
-        
-    def move_bottom(self,event=None):
-        self.canvas.widget.yview_moveto('1.0')
-        
-    def move_top(self,event=None):
-        self.canvas.widget.yview_moveto(0)
+        sg.bind (obj      = self.obj
+                ,bindings = '<End>'
+                ,action   = self.canvas.move_bottom
+                )
+        sg.bind (obj      = self.obj
+                ,bindings = '<Home>'
+                ,action   = self.canvas.move_top
+                )
 
     def show(self,event=None):
         self.obj.show()
