@@ -35,8 +35,7 @@ class ImageViewer:
                                ,fill   = 'both'
                                )
         self.canvas.embed(self.label)
-        self.scroll_x()
-        self.scroll_y()
+        self.scrollbars()
         self.canvas.focus()
         self.bindings()
         
@@ -45,24 +44,15 @@ class ImageViewer:
             arg = _('Image') + ':'
         self.obj.title(arg)
     
-    def scroll_x(self):
-        self.xscroll = tk.Scrollbar (master = self.frame_x.widget
-                                    ,orient = tk.HORIZONTAL
+    def scrollbars(self):
+        self.xscroll = sg.Scrollbar (parent     = self.frame_x
+                                    ,scroll     = self.canvas
+                                    ,Horizontal = True
                                     )
-        self.xscroll.pack (expand = True
-                          ,fill   = 'x'
-                          )
-        self.canvas.widget.config(xscrollcommand=self.xscroll.set)
-        self.xscroll.config(command=self.canvas.widget.xview)
-    
-    def scroll_y(self):
-        self.yscroll = tk.Scrollbar(master=self.frame_y.widget)
-        self.yscroll.pack (expand = True
-                          ,fill   = 'y'
-                          )
-        self.canvas.widget.config(yscrollcommand=self.yscroll.set)
-        self.yscroll.config(command=self.canvas.widget.yview)
-        
+        self.yscroll = sg.Scrollbar (parent = self.frame_y
+                                    ,scroll = self.canvas
+                                    )
+
     def frames(self):
         self.frame   = sg.Frame (parent = self.obj)
         self.frame_x = sg.Frame (parent = self.frame
