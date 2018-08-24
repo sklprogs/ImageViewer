@@ -7,6 +7,10 @@ rm -f ./resources/{error.gif,info.gif,question.gif,warning.gif}
 
 # Remove other ImageViewer resources
 rm -f ./resources/locale/ru/LC_MESSAGES/ImageViewer.mo
+rm -f ./resources/icon_64x64_viewer.gif
+
+# (Wine-only) Remove other ImageViewer resources
+rm -f ./resources/icon_64x64_viewer.ico
 
 # Remove ImageViewer image files
 rm -f ./resources/Gnu_\(PSF\).png
@@ -18,8 +22,8 @@ rm -f ./ImageViewer.py
 rm -f ./{gettext_windows.py,shared.py,sharedGUI.py}
 
 # (Wine-only) Remove build scripts
-rm -f ./{build.sh,clean_up.sh,ImageViewer.cmd,setup.py}
+rm -f ./{build.sh,clean_up.sh,ImageViewer.cmd,setup.py,update_here.sh,update_viewer.sh}
 
 rmdir -p resources/locale/ru/LC_MESSAGES
 
-ls .
+ls --color=always .

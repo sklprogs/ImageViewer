@@ -10,8 +10,12 @@ cp -u /usr/local/bin/shared/resources/{error.gif,info.gif,question.gif,warning.g
 # Copy ImageViewer image files
 cp -u /usr/local/bin/ImageViewer/resources/Gnu_\(PSF\).png ./resources
 
+# (Wine-only) Copy other ImageViewer resources
+cp -u /usr/local/bin/ImageViewer/resources/icon_64x64_viewer.ico ./resources/
+
 # Copy other ImageViewer resources
 cp -u /usr/local/bin/ImageViewer/resources/locale/ru/LC_MESSAGES/ImageViewer.mo ./resources/locale/ru/LC_MESSAGES/
+cp -u /usr/local/bin/ImageViewer/resources/icon_64x64_viewer.gif ./resources/
 
 # Copy ImageViewer Python files
 cp -u /usr/local/bin/ImageViewer/src/ImageViewer.py .
@@ -20,6 +24,6 @@ cp -u /usr/local/bin/ImageViewer/src/ImageViewer.py .
 cp -u /usr/local/bin/shared/src/{gettext_windows.py,shared.py,sharedGUI.py} .
 
 # (Wine-only) Copy build scripts
-cp -u /usr/local/bin/ImageViewer/build/Wine/{build.sh,clean_up.sh,ImageViewer.cmd,setup.py} .
+cp -u /usr/local/bin/ImageViewer/build/Wine/{build.sh,clean_up.sh,ImageViewer.cmd,setup.py,update_viewer.sh} .
 
-ls .
+ls --color=always .
