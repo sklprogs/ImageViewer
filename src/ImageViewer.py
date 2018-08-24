@@ -30,7 +30,6 @@ class ImageViewer:
     def gui(self):
         self.parent = sg.objs.new_top()
         sg.Geometry(parent=self.parent).set('1024x768')
-        self.title()
         self.frames()
         self.canvas = sg.Canvas(parent = self.frame1)
         self.label  = sg.Label (parent = self.frame1
@@ -40,6 +39,8 @@ class ImageViewer:
         self.canvas.embed(self.label)
         self.scrollbars()
         self.canvas.focus()
+        self.title()
+        self.icon()
         self.bindings()
         self.canvas.top_bindings(top=self.parent)
         
@@ -103,6 +104,16 @@ class ImageViewer:
         
     def close(self,event=None):
         self.parent.close()
+        
+    def icon(self,path=None):
+        if path:
+            self.parent.icon(path)
+        else:
+            self.parent.icon (sh.objs.pdir().add ('..'
+                                                 ,'resources'
+                                                 ,'icon_64x64_viewer.gif'
+                                                 )
+                             )
 
 
 if __name__ == '__main__':
