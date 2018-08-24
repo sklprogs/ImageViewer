@@ -8,7 +8,8 @@ buildOptions = dict (packages = []
                     )
 
 executables = [Executable ('ImageViewer.py'
-                          ,base = 'Console'
+                          ,base       = 'Console'
+                          ,icon       = 'resources/icon_64x64_viewer.gif'
                           ,targetName = 'ImageViewer'
                           )
               ]

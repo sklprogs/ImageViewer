@@ -8,7 +8,8 @@ buildOptions = dict (packages = []
                     )
 
 executables = [Executable ('ImageViewer.py'
-                          ,base = 'Win32GUI'
+                          ,base       = 'Win32GUI'
+                          ,icon       = 'resources\icon_64x64_viewer.ico'
                           ,targetName = 'ImageViewer.exe'
                           )
               ]

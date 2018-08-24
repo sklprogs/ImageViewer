@@ -7,6 +7,7 @@ rm -f ./resources/{error.gif,info.gif,question.gif,warning.gif}
 
 # Remove other ImageViewer resources
 rm -f ./resources/locale/ru/LC_MESSAGES/ImageViewer.mo
+rm -f ./resources/icon_64x64_viewer.gif
 
 # Remove ImageViewer image files
 rm -f ./resources/Gnu_\(PSF\).png
@@ -18,7 +19,7 @@ rm -f ./ImageViewer.py
 rm -f ./{gettext_windows.py,shared.py,sharedGUI.py}
 
 # (Linux-only) Remove build scripts
-rm -f ./{build.sh,clean_up.sh,setup.py}
+rm -f ./{build.sh,clean_up.sh,setup.py,update_finish.sh,update_here.sh,update_viewer.sh}
 
 rmdir -p resources/locale/ru/LC_MESSAGES
 
