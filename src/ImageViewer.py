@@ -28,8 +28,8 @@ class ImageViewer:
         self.canvas.scroll()
         
     def gui(self):
-        self.obj = sg.objs.new_top()
-        sg.Geometry(parent=self.obj).set('1024x768')
+        self.parent = sg.objs.new_top()
+        sg.Geometry(parent=self.parent).set('1024x768')
         self.title()
         self.frames()
         self.canvas = sg.Canvas(parent = self.frame1)
@@ -41,11 +41,12 @@ class ImageViewer:
         self.scrollbars()
         self.canvas.focus()
         self.bindings()
+        self.canvas.top_bindings(top=self.parent)
         
     def title(self,arg=None):
         if not arg:
             arg = _('Image') + ':'
-        self.obj.title(arg)
+        self.parent.title(arg)
     
     def scrollbars(self):
         self.xscroll = sg.Scrollbar (parent     = self.frame_x
@@ -57,7 +58,7 @@ class ImageViewer:
                                     )
 
     def frames(self):
-        self.frame   = sg.Frame (parent = self.obj)
+        self.frame   = sg.Frame (parent = self.parent)
         self.frame_x = sg.Frame (parent = self.frame
                                 ,expand = False
                                 ,fill   = 'x'
@@ -92,54 +93,24 @@ class ImageViewer:
                           )
         
     def bindings(self):
-        sg.bind (obj      = self.obj
+        sg.bind (obj      = self.parent
                 ,bindings = ['<Control-q>','<Control-w>','<Escape>']
                 ,action   = self.close
                 )
-        sg.bind (obj      = self.obj
-                ,bindings = '<Down>'
-                ,action   = self.canvas.move_down
-                )
-        sg.bind (obj      = self.obj
-                ,bindings = '<Up>'
-                ,action   = self.canvas.move_up
-                )
-        sg.bind (obj      = self.obj
-                ,bindings = '<Left>'
-                ,action   = self.canvas.move_left
-                )
-        sg.bind (obj      = self.obj
-                ,bindings = '<Right>'
-                ,action   = self.canvas.move_right
-                )
-        sg.bind (obj      = self.obj
-                ,bindings = '<Next>'
-                ,action   = self.canvas.move_page_down
-                )
-        sg.bind (obj      = self.obj
-                ,bindings = '<Prior>'
-                ,action   = self.canvas.move_page_up
-                )
-        sg.bind (obj      = self.obj
-                ,bindings = '<End>'
-                ,action   = self.canvas.move_bottom
-                )
-        sg.bind (obj      = self.obj
-                ,bindings = '<Home>'
-                ,action   = self.canvas.move_top
-                )
 
     def show(self,event=None):
-        self.obj.show()
+        self.parent.show()
         
     def close(self,event=None):
-        self.obj.close()
+        self.parent.close()
 
 
 if __name__ == '__main__':
     sg.objs.start()
     iv = ImageViewer (parent  = sg.objs.root()
-                     ,picture = '../resources/Gnu_(PSF).png'
+                     ,picture = sh.objs.pdir().add ('..','resources'
+                                                   ,'Gnu_(PSF).png'
+                                                   )
                      )
     iv.show()
     sg.objs.end()
