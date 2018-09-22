@@ -9,11 +9,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Russian\n"
-"X-Poedit-Country: RUSSIAN FEDERATION\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: .\n"
-"X-Poedit-SearchPath-0: /usr/local/bin/ImageViewer\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../src\n"
+"Language: ru_RU\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SearchPath-0: .\n"
 
 #: /usr/local/bin/ImageViewer/src/sharedGUI.py:28
 #: /usr/local/bin/ImageViewer/src/sharedGUI.py:34
@@ -381,7 +381,7 @@ msgstr "ПРЕДУПРЕЖДЕНИЕ"
 #: /usr/local/bin/ImageViewer/src/sharedGUI.py:77
 #, python-format
 msgid "An unknown color \"%s\"!"
-msgstr "Произошла неизвестная ошибка."
+msgstr "Неизвестный цвет \"%s\"!"
 
 #: /usr/local/bin/ImageViewer/src/sharedGUI.py:82
 #: /usr/local/bin/ImageViewer/src/shared.py:603
@@ -945,11 +945,11 @@ msgstr "Сравнение текстов"
 #: /usr/local/bin/ImageViewer/src/sharedGUI.py:3582
 #, python-format
 msgid "File: \"%s\"; %d/%d MB; Rate: %d kbps; ETA: %d s"
-msgstr ""
+msgstr "Файл: \"%s\"; %d/%d Мб; Скорость: %d Кб/с; Осталось: %dс"
 
 #: /usr/local/bin/ImageViewer/src/sharedGUI.py:3626
 msgid "Download progress"
-msgstr ""
+msgstr "Ход загрузок"
 
 #: /usr/local/bin/ImageViewer/src/sharedGUI.py:3893
 #, python-format
@@ -969,7 +969,7 @@ msgstr "ВНИМАНИЕ: Перезаписать файл \"%s\"?"
 #: /usr/local/bin/ImageViewer/src/shared.py:194
 #, python-format
 msgid "Custom arguments: \"%s\""
-msgstr ""
+msgstr "Особые параметры: \"%s\""
 
 #: /usr/local/bin/ImageViewer/src/shared.py:206
 #, python-format
@@ -1042,7 +1042,7 @@ msgstr "На входе должно быть целое число, но пол
 #: /usr/local/bin/ImageViewer/src/shared.py:1010
 #, python-format
 msgid "Different number of opening and closing brackets: \"%s\": %d; \"%s\": %d!"
-msgstr ""
+msgstr "Разное число открывающих и закрывающих скобок: \"%s\": %d; \"%s\": %d!"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:1053
 msgid "Empty strings are not supported!"
@@ -1076,51 +1076,51 @@ msgstr "Обратите внимание: указанная дата - пон�
 
 #: /usr/local/bin/ImageViewer/src/shared.py:1426
 msgid "Jan"
-msgstr ""
+msgstr "янв"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:1428
 msgid "Feb"
-msgstr ""
+msgstr "фев"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:1430
 msgid "Mar"
-msgstr ""
+msgstr "мар"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:1432
 msgid "Apr"
-msgstr ""
+msgstr "апр"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:1434
 msgid "May"
-msgstr ""
+msgstr "май"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:1436
 msgid "Jun"
-msgstr ""
+msgstr "июн"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:1438
 msgid "Jul"
-msgstr ""
+msgstr "июл"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:1440
 msgid "Aug"
-msgstr ""
+msgstr "авг"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:1442
 msgid "Sep"
-msgstr ""
+msgstr "сен"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:1444
 msgid "Oct"
-msgstr ""
+msgstr "окт"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:1446
 msgid "Nov"
-msgstr ""
+msgstr "ноя"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:1448
 msgid "Dec"
-msgstr ""
+msgstr "дек"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:1534
 #, python-format
@@ -1213,7 +1213,7 @@ msgstr "Не удается создать каталог \"%s\"!"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:1997
 msgid "The following lines cannot be parsed:"
-msgstr ""
+msgstr "Не удается обработать следующие строки:"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:2282
 #, python-format
@@ -1347,11 +1347,11 @@ msgstr "Ориентиры не найдены!"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:4201
 msgid "No references to the right!"
-msgstr ""
+msgstr "Справа ориентиров нет!"
 
 #: /usr/local/bin/ImageViewer/src/shared.py:4207
 msgid "No references to the left!"
-msgstr ""
+msgstr "Слева ориентиров нет!"
 
 #: /usr/local/bin/ImageViewer/src/ImageViewer.py:47
 msgid "Image"
@@ -1359,12 +1359,15 @@ msgstr "Изображение"
 
 #~ msgid "Text with instructions:"
 #~ msgstr "Текст с инструкцией:"
+
 #~ msgid "Clear"
 #~ msgstr "Очистить"
+
 #~ msgid "Delete all text"
 #~ msgstr "Удалить весь текст"
+
 #~ msgid "Add"
 #~ msgstr "Добавить"
+
 #~ msgid "Manage blacklist"
 #~ msgstr "Управление черным списком"
-
