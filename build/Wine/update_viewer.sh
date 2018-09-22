@@ -1,11 +1,11 @@
-#!/bin/sh
+#!/bin/bash
 
 ./update_here.sh
 ./build.sh
 mkdir -p ./ImageViewer/app
 mv ./build/exe.win32-3.4/* ./ImageViewer/app/
 rmdir -p build/exe.win32-3.4
-cp -r /usr/local/bin/shared_bin_win/* ./ImageViewer/app/
+cp -r $HOME/bin/shared_bin_win/* ./ImageViewer/app/
 cp -r ./resources ./ImageViewer/
 cp ./ImageViewer.cmd ./ImageViewer/
 

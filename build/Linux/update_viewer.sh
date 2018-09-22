@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Do not use "verbose" in order to spot errors easily
 
