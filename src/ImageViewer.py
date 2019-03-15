@@ -50,9 +50,9 @@ class ImageViewer:
         self.parent.title(arg)
     
     def scrollbars(self):
-        self.xscroll = sg.Scrollbar (parent     = self.frame_x
-                                    ,scroll     = self.canvas
-                                    ,Horizontal = True
+        self.xscroll = sg.Scrollbar (parent = self.frame_x
+                                    ,scroll = self.canvas
+                                    ,Horiz  = True
                                     )
         self.yscroll = sg.Scrollbar (parent = self.frame_y
                                     ,scroll = self.canvas
