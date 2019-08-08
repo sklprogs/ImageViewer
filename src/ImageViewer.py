@@ -1,14 +1,13 @@
 #!/usr/bin/python3
 
-import tkinter          as tk
-from PIL import Image   as ig
-from PIL import ImageTk as it
-import shared           as sh
-import sharedGUI        as sg
+import skl_shared.shared as sh
 
-import gettext, gettext_windows
-gettext_windows.setup_env()
+import gettext
+import skl_shared.gettext_windows
+skl_shared.gettext_windows.setup_env()
 gettext.install('ImageViewer','../resources/locale')
+
+ICON = sh.objs.pdir().add('..','resources','icon_64x64_viewer.gif')
 
 
 # How to combine frames, scrollbars and canvas
@@ -28,11 +27,11 @@ class ImageViewer:
         self.canvas.scroll()
         
     def gui(self):
-        self.parent = sg.objs.new_top()
-        sg.Geometry(parent=self.parent).set('1024x768')
+        self.parent = sh.Top()
+        sh.Geometry(self.parent).set('1024x768')
         self.frames()
-        self.canvas = sg.Canvas(parent = self.frame1)
-        self.label  = sg.Label (parent = self.frame1
+        self.canvas = sh.Canvas(parent = self.frame1)
+        self.label  = sh.Label (parent = self.frame1
                                ,expand = True
                                ,fill   = 'both'
                                )
@@ -42,7 +41,9 @@ class ImageViewer:
         self.title()
         self.icon()
         self.bindings()
-        self.canvas.top_bindings(top=self.parent)
+        self.canvas.top_bindings (top  = self.parent
+                                 ,Ctrl = False
+                                 )
         
     def title(self,arg=None):
         if not arg:
@@ -50,54 +51,52 @@ class ImageViewer:
         self.parent.title(arg)
     
     def scrollbars(self):
-        self.xscroll = sg.Scrollbar (parent = self.frame_x
+        self.xscroll = sh.Scrollbar (parent = self.frame_x
                                     ,scroll = self.canvas
                                     ,Horiz  = True
                                     )
-        self.yscroll = sg.Scrollbar (parent = self.frame_y
+        self.yscroll = sh.Scrollbar (parent = self.frame_y
                                     ,scroll = self.canvas
                                     )
 
     def frames(self):
-        self.frame   = sg.Frame (parent = self.parent)
-        self.frame_x = sg.Frame (parent = self.frame
+        self.frame   = sh.Frame (parent = self.parent)
+        self.frame_x = sh.Frame (parent = self.frame
                                 ,expand = False
                                 ,fill   = 'x'
                                 ,side   = 'bottom'
                                 )
-        self.frame_y = sg.Frame (parent = self.frame
+        self.frame_y = sh.Frame (parent = self.frame
                                 ,expand = False
                                 ,fill   = 'y'
                                 ,side   = 'right'
                                 )
         # This frame must be created after the bottom frame
-        self.frame1  = sg.Frame (parent = self.frame)
+        self.frame1  = sh.Frame (parent = self.frame)
     
     def pic(self):
+        f = '[ImageViewer] ImageViewer.ImageViewer.pic'
         if self._picture:
             if sh.File(file=self._picture).Success:
-                loader = ig.open(self._picture)
-                self._size = loader.size
-                image = it.PhotoImage(loader)
-                self.label.widget.config(image=image)
-                # This prevents the garbage collector from deleting the image
-                self.label.widget.image = image
+                iimage = sh.Image()
+                iimage.open(self._picture)
+                self._size = iimage._loader.size
+                self.label.widget.config(image=iimage._image)
+                ''' This prevents the garbage collector from deleting
+                    the image.
+                '''
+                self.label.widget.image = iimage._image
             else:
-                sh.log.append ('ImageViewer.pic'
-                              ,_('WARNING')
-                              ,_('Wrong input data!')
-                              )
+                mes = _('Wrong input data!')
+                sh.Message(f,mes,True).warning()
         else:
-            sh.log.append ('ImageViewer.pic'
-                          ,_('WARNING')
-                          ,_('Empty input is not allowed!')
-                          )
+            sh.com.empty(f)
         
     def bindings(self):
-        sg.bind (obj      = self.parent
-                ,bindings = ['<Control-q>','<Control-w>','<Escape>']
-                ,action   = self.close
-                )
+        sh.com.bind (obj      = self.parent
+                    ,bindings = ('<Control-q>','<Control-w>','<Escape>')
+                    ,action   = self.close
+                    )
 
     def show(self,event=None):
         self.parent.show()
@@ -109,19 +108,15 @@ class ImageViewer:
         if path:
             self.parent.icon(path)
         else:
-            self.parent.icon (sh.objs.pdir().add ('..'
-                                                 ,'resources'
-                                                 ,'icon_64x64_viewer.gif'
-                                                 )
-                             )
+            self.parent.icon(ICON)
 
 
 if __name__ == '__main__':
-    sg.objs.start()
-    iv = ImageViewer (parent  = sg.objs.root()
+    sh.com.start()
+    iv = ImageViewer (parent  = sh.objs.root()
                      ,picture = sh.objs.pdir().add ('..','resources'
                                                    ,'Gnu_(PSF).png'
                                                    )
                      )
     iv.show()
-    sg.objs.end()
+    sh.com.end()
