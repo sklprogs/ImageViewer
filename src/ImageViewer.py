@@ -1,11 +1,7 @@
 #!/usr/bin/python3
 
 import skl_shared.shared as sh
-
-import gettext
-import skl_shared.gettext_windows
-skl_shared.gettext_windows.setup_env()
-gettext.install('ImageViewer','../resources/locale')
+from skl_shared.localize import _
 
 ICON = sh.objs.pdir().add('..','resources','icon_64x64_viewer.gif')
 
@@ -88,7 +84,7 @@ class ImageViewer:
                 self.label.widget.image = iimage._image
             else:
                 mes = _('Wrong input data!')
-                sh.Message(f,mes,True).warning()
+                sh.objs.mes(f,mes,True).warning()
         else:
             sh.com.empty(f)
         

@@ -1,0 +1,1214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ImageViewer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-30 23:34+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Peter Sklyar <skl.progs@gmail.com>\n"
+"Language-Team: Peter Sklyar <skl.progs@gmail.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../src\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ImageViewer.py:46
+msgid "Image"
+msgstr "Изображение"
+
+#: ImageViewer.py:86 del/logic.py:890 del/logic.py:1070 del/logic.py:1167
+#: del/logic.py:1837 del/logic.py:2299 del/logic.py:2929 del/logic.py:2996
+#: del/logic.py:3847 del/logic.py:4607 del/shared.py:667 del/shared.py:2479
+#: del/shared.py:3170 del/shared.py:3617 del/shared.py:4448
+msgid "Wrong input data!"
+msgstr "Недопустимые входные данные!"
+
+#: del/gui.py:1252 del/logic.py:249 del/logic.py:294 del/logic.py:809
+#: del/logic.py:828 del/logic.py:4825 del/shared.py:4139
+msgid "WARNING"
+msgstr "ПРЕДУПРЕЖДЕНИЕ"
+
+#: del/gui.py:1259 del/logic.py:288 del/logic.py:809 del/shared.py:4131
+msgid "ERROR"
+msgstr "ОШИБКА"
+
+#: del/gui.py:1266 del/logic.py:251 del/logic.py:312 del/shared.py:4164
+#: del/shared.py:4368
+msgid "QUESTION"
+msgstr "ВОПРОС"
+
+#: del/gui.py:1273 del/logic.py:247 del/logic.py:272 del/logic.py:300
+#: del/logic.py:799 del/logic.py:834 del/logic.py:4833 del/shared.py:4148
+#: del/shared.py:4156
+msgid "INFO"
+msgstr "ИНФОРМАЦИЯ"
+
+#: del/logic.py:104 del/logic.py:4260
+msgid "Set the max number of rows to {}"
+msgstr "Задать максимальное число столбцов: {}"
+
+#: del/logic.py:117
+msgid "Set the max column width to {} symbols"
+msgstr "Ограничить максимальную ширину столбца {} символами"
+
+#: del/logic.py:153 del/logic.py:948 del/logic.py:967 del/logic.py:2368
+#: del/logic.py:2388 del/logic.py:4484 del/logic.py:4502 del/logic.py:4546
+#: del/shared.py:4403
+msgid "The condition \"{}\" is not observed!"
+msgstr "Условие \"{}\" не выполнено!"
+
+#: del/logic.py:217
+msgid "Only iterable objects are supported!"
+msgstr "Поддерживаются только итерируемые объекты!"
+
+#: del/logic.py:247 del/logic.py:306
+msgid "DEBUG"
+msgstr "ОТЛАДКА"
+
+#: del/logic.py:258
+msgid "File \"{}\" was not found!"
+msgstr "Файл \"{}\" не найден!"
+
+#: del/logic.py:393 del/logic.py:421 del/logic.py:2076 del/logic.py:2543
+#: del/logic.py:3779 del/logic.py:4757 del/logic.py:4939 del/logic.py:5025
+#: del/shared.py:2711 del/shared.py:2747
+msgid "Wrong input data: \"{}\"!"
+msgstr "Недопустимые входные данные: \"{}\"!"
+
+#: del/logic.py:491 del/logic.py:494
+msgid "Left mouse button"
+msgstr "Левая кнопка мыши"
+
+#: del/logic.py:497 del/logic.py:500
+msgid "Middle mouse button"
+msgstr "Средняя кнопка мыши"
+
+#: del/logic.py:503 del/logic.py:506
+msgid "Right mouse button"
+msgstr "Правая кнопка мыши"
+
+#: del/logic.py:509
+msgid "Space"
+msgstr "Пробел"
+
+#: del/logic.py:648
+msgid "Custom arguments: \"{}\""
+msgstr "Особые параметры: \"{}\""
+
+#: del/logic.py:657 del/logic.py:3198 del/logic.py:3226
+msgid "Failed to run \"{}\"!"
+msgstr "Не удалось запустить \"{}\"!"
+
+#: del/logic.py:667 del/logic.py:675 del/logic.py:683
+msgid ""
+"Unable to open the file in an external program. You should probably check "
+"the file associations."
+msgstr ""
+"Не удается открыть файл во внешней программе. Возможно, Вам стоит проверить "
+"ассоциации файлов."
+
+#: del/logic.py:740 del/logic.py:771 del/logic.py:786 del/regexp.py:45
+#: del/regexp.py:107
+msgid "Not enough input data!"
+msgstr "Недостаточно входных данных!"
+
+#: del/logic.py:746 del/logic.py:2210
+msgid "Write file \"{}\""
+msgstr "Запись файла \"{}\""
+
+#: del/logic.py:753
+msgid "Unable to write file \"{}\"!"
+msgstr "Не удается записать файл \"{}\"!"
+
+#: del/logic.py:756 del/logic.py:2225 del/shared.py:1405 del/shared.py:2698
+#: del/shared.py:3238 del/shared.py:3624 del/shared.py:3703
+msgid ""
+"An unknown mode \"{}\"!\n"
+"\n"
+"The following modes are supported: \"{}\"."
+msgstr ""
+"Неизвестный режим \"{}\"!\n"
+"\n"
+"Поддерживаются следующие режимы: \"{}\"."
+
+#: del/logic.py:829
+msgid "Cannot print the message!"
+msgstr "Не удаётся показать сообщение!"
+
+#: del/logic.py:866 del/logic.py:2275
+msgid "Entries deleted: {} ({}-{})"
+msgstr "Удалено вхождений: {} ({}-{})"
+
+#: del/logic.py:875 del/logic.py:1016 del/logic.py:2284 del/logic.py:2441
+msgid "File \"{}\" is not sortable!"
+msgstr "Файл \"{}\" не подлежит сортировке!"
+
+#: del/logic.py:913
+msgid "Dictionary \"{}\": Incorrect line #{}: \"{}\"!"
+msgstr "Словарь \"{}\": Неправильная строка №{}: \"{}\"!"
+
+#: del/logic.py:1062 del/logic.py:1899 del/logic.py:5038
+msgid "Empty input is not allowed!"
+msgstr "Пустые входные данные не допускаются!"
+
+#: del/logic.py:1066 del/logic.py:1903 del/shared.py:3336 del/shared.py:4046
+msgid "File \"{}\" has not been found!"
+msgstr "Файл \"{}\" не найден!"
+
+#: del/logic.py:1121 del/logic.py:2485
+msgid "Load file \"{}\""
+msgstr "Загрузка файла \"{}\""
+
+#: del/logic.py:1138
+msgid "Unable to read file \"{}\"!"
+msgstr "Не удается прочитать файл \"{}\"!"
+
+#: del/logic.py:1157
+msgid "Float is required at input, but found \"{}\"! Return 0.0"
+msgstr ""
+"На входе должно быть число с плавающей запятой, но получено \"{}\"! "
+"Возвращаю 0.0"
+
+#: del/logic.py:1179 del/logic.py:1188
+msgid "Convert \"{}\" to an integer"
+msgstr "Конвертация \"{}\" в целое число"
+
+#: del/logic.py:1191
+msgid "Integer is required at input, but found \"{}\"! Return 0"
+msgstr "На входе должно быть целое число, но получено \"{}\"! Возвращаю 0"
+
+#: del/logic.py:1365
+msgid ""
+"Different number of opening and closing brackets: \"{}\": {}; \"{}\": {}!"
+msgstr "Разное число открывающих и закрывающих скобок: \"{}\": {}; \"{}\": {}!"
+
+#: del/logic.py:1512
+msgid ""
+"Commas and/or semicolons or line breaks can be used, but not altogether!"
+msgstr ""
+"Можно использовать запятые и/или точки с запятой или переносы строк, но не "
+"все сразу!"
+
+#: del/logic.py:1536
+msgid "Failed to convert \"{}\" to an integer!"
+msgstr "Не удалось конвертировать \"{}\" в целое число!"
+
+#: del/logic.py:1547
+msgid "Failed to convert \"{}\" to a floating-point number!"
+msgstr "Не удалось конвертировать \"{}\" в число с плавающей точкой!"
+
+#: del/logic.py:1735 del/logic.py:1749 del/logic.py:1780 del/logic.py:1867
+msgid "Set time parameters are incorrect or not supported."
+msgstr "Заданные параметры времени неверны или не поддерживаются."
+
+#: del/logic.py:1764
+msgid ""
+"Set time parameters are incorrect or not supported.\n"
+"\n"
+"Details: {}"
+msgstr ""
+"Заданные параметры времени неверны или не поддерживаются.\n"
+"\n"
+"Подробности: {}"
+
+#: del/logic.py:1813
+msgid "Jan"
+msgstr "янв"
+
+#: del/logic.py:1815
+msgid "Feb"
+msgstr "фев"
+
+#: del/logic.py:1817
+msgid "Mar"
+msgstr "мар"
+
+#: del/logic.py:1819
+msgid "Apr"
+msgstr "апр"
+
+#: del/logic.py:1821
+msgid "May"
+msgstr "май"
+
+#: del/logic.py:1823
+msgid "Jun"
+msgstr "июн"
+
+#: del/logic.py:1825
+msgid "Jul"
+msgstr "июл"
+
+#: del/logic.py:1827
+msgid "Aug"
+msgstr "авг"
+
+#: del/logic.py:1829
+msgid "Sep"
+msgstr "сен"
+
+#: del/logic.py:1831
+msgid "Oct"
+msgstr "окт"
+
+#: del/logic.py:1833
+msgid "Nov"
+msgstr "ноя"
+
+#: del/logic.py:1835
+msgid "Dec"
+msgstr "дек"
+
+#: del/logic.py:1907
+msgid "The object \"{}\" is not a file!"
+msgstr "Объект \"{}\" не является файлом!"
+
+#: del/logic.py:1926 del/logic.py:2072 del/logic.py:2565 del/logic.py:3169
+msgid ""
+"Operation has failed!\n"
+"Details: {}"
+msgstr ""
+"Операция завершилась с ошибкой!\n"
+"Подробности: {}"
+
+#: del/logic.py:1935 del/logic.py:2704
+msgid "Copy \"{}\" to \"{}\""
+msgstr "Копирование \"{}\" в \"{}\""
+
+#: del/logic.py:1941
+msgid "Failed to copy file \"{}\" to \"{}\"!"
+msgstr "Не удалось скопировать файл \"{}\" в \"{}\"!"
+
+#: del/logic.py:1949
+msgid "Move \"{}\" to \"{}\""
+msgstr "Перемещение \"{}\" в \"{}\""
+
+#: del/logic.py:1955
+msgid "Failed to move \"{}\" to \"{}\"!"
+msgstr "Не удалось переместить \"{}\" в \"{}\"!"
+
+#: del/logic.py:1968 del/logic.py:2015
+msgid "Failed to get the date of the file \"{}\"!"
+msgstr "Не удалось определить дату файла \"{}\"!"
+
+#: del/logic.py:1979
+msgid "Unable to copy the file \"{}\" to iself!"
+msgstr "Нельзя скопировать файл \"{}\" сам в себя!"
+
+#: del/logic.py:1987 del/logic.py:2034 del/logic.py:2248 del/shared.py:2297
+msgid "Operation has been canceled by the user."
+msgstr "Операция отменена пользователем."
+
+#: del/logic.py:1996 del/logic.py:2616
+msgid "Delete \"{}\""
+msgstr "Удаление \"{}\""
+
+#: del/logic.py:2002
+msgid "Failed to delete file \"{}\"!"
+msgstr "Не удается удалить файл \"{}\"!"
+
+#: del/logic.py:2026
+msgid ""
+"Moving is not necessary, because the source and destination are identical "
+"({})."
+msgstr ""
+"Перемещение не требуется, поскольку на входе и выходе указан один и тот же "
+"объект ({})."
+
+#: del/logic.py:2044
+msgid "Change the time of the file \"{}\" to {}"
+msgstr "Изменение времени файла \"{}\" на {}"
+
+#: del/logic.py:2050
+msgid "Failed to change the time of the file \"{}\" to \"{}\"!"
+msgstr "Не удалось изменить время файла \"{}\" на \"{}\"!"
+
+#: del/logic.py:2100 del/logic.py:2694
+msgid "Directory \"{}\" already exists."
+msgstr "Каталог \"{}\" уже существует."
+
+#: del/logic.py:2105
+msgid "The path \"{}\" is invalid!"
+msgstr "Путь \"{}\" неверен!"
+
+#: del/logic.py:2109
+msgid "Create directory \"{}\""
+msgstr "Создание каталога \"{}\""
+
+#: del/logic.py:2116
+msgid "Failed to create directory \"{}\"!"
+msgstr "Не удается создать каталог \"{}\"!"
+
+#: del/logic.py:2221
+msgid ""
+"Unable to write file \"{}\"!\n"
+"\n"
+"Details: {}"
+msgstr ""
+"Не удается записать файл \"{}\"!\n"
+"\n"
+"Подробности: {}"
+
+#: del/logic.py:2334
+msgid "The following lines cannot be parsed:"
+msgstr "Не удается обработать следующие строки:"
+
+#: del/logic.py:2495
+msgid ""
+"Unable to read file \"{}\"!\n"
+"\n"
+"Details: {}"
+msgstr ""
+"Не удается прочитать файл \"{}\"!\n"
+"\n"
+"Подробности: {}"
+
+#: del/logic.py:2622
+msgid "Failed to delete directory \"{}\"! Delete it manually."
+msgstr "Не удается удалить каталог \"{}\"! Удалите его вручную."
+
+#: del/logic.py:2691
+msgid "Unable to copy \"{}\" to iself!"
+msgstr "Нельзя скопировать \"{}\" сам в себя!"
+
+#: del/logic.py:2710
+msgid "Failed to copy \"{}\" to \"{}\"!"
+msgstr "Не удалось скопировать \"{}\" в \"{}\"!"
+
+#: del/logic.py:2726
+msgid "The following sections and/or keys are missing:"
+msgstr "Отсутствуют следующие разделы и/или ключи:"
+
+#: del/logic.py:2739
+msgid "New value of the key \"{}\" has been loaded."
+msgstr "Загружено новое значение ключа \"{}\"."
+
+#: del/logic.py:2744
+msgid "Keys loaded in total: {}, whereas {} are modified."
+msgstr "Всего загружено ключей: {}, из них измененных: {}"
+
+#: del/logic.py:2769
+msgid "Missing sections: {}"
+msgstr "Отсутствующих разделов: {}"
+
+#: del/logic.py:2771
+msgid "Missing keys: {}"
+msgstr "Отсутствующих ключей: {}"
+
+#: del/logic.py:2773
+msgid "The default configuration has been loaded."
+msgstr "Загружена конфигурация по умолчанию."
+
+#: del/logic.py:2786
+msgid ""
+"Failed to read the configuration file \"{}\". This file must share the same "
+"directory with the program and have UTF-8 encoding (no BOM) and UNIX line "
+"break type."
+msgstr ""
+"Не удается прочитать конфигурационный файл \"{}\". Этот файл должен "
+"находиться в одном каталоге с программой и иметь кодировку UTF-8 (без BOM), "
+"тип разрыва строки - UNIX."
+
+#: del/logic.py:2823
+msgid ""
+"Failed to open URL \"{}\" in a default browser!\n"
+"\n"
+"Details: {}"
+msgstr ""
+"Не удалось открыть адрес \"{}\" в браузере по умолчанию!\n"
+"\n"
+"Подробности: {}"
+
+#: del/logic.py:2880
+msgid "Differences:"
+msgstr "Различия:"
+
+#: del/logic.py:2904
+msgid "Texts are identical!"
+msgstr "Различий нет!"
+
+#: del/logic.py:2960
+msgid "Delete the symbolic link \"{}\""
+msgstr "Удаление ярлыка \"{}\""
+
+#: del/logic.py:2965
+msgid "Failed to remove shortcut \"{}\". Remove it manually and press OK."
+msgstr "Не удается удалить ярлык \"{}\". Удалите его вручную и нажмите OK."
+
+#: del/logic.py:2979 del/logic.py:3003
+msgid "Create a symbolic link \"{}\""
+msgstr "Создание ярлыка \"{}\""
+
+#: del/logic.py:2984 del/logic.py:3012
+msgid "Failed to create shortcut \"{}\". Create it manually and press OK."
+msgstr "Не удается создать ярлык \"{}\". Создайте его вручную и нажмите OK."
+
+#: del/logic.py:3134
+msgid "Failed to load an e-mail client."
+msgstr "Не удалось загрузить почтовый клиент."
+
+#: del/logic.py:3172
+msgid "This operation cannot be executed on your operating system."
+msgstr "Эта операция не может быть выполнена на вашей операционной системе."
+
+#: del/logic.py:3517
+msgid "Analyze the text"
+msgstr "Анализ текста"
+
+#: del/logic.py:3803
+msgid "Failed to find words of paragraph #{}!"
+msgstr "Не удалось найти слова абзаца №{}!"
+
+#: del/logic.py:4088 del/logic.py:4089 del/logic.py:4816 del/logic.py:4821
+#: del/logic.py:4822 del/logic.py:4829 del/logic.py:4830
+msgid "Logic error!"
+msgstr "Логическая ошибка!"
+
+#: del/logic.py:4173 del/logic.py:4181
+msgid "The pool is empty!"
+msgstr "Пул пуст!"
+
+#: del/logic.py:4216
+msgid "The operation has taken {} s."
+msgstr "Операция завершена за {} с."
+
+#: del/logic.py:4392
+msgid "Unable to use unverified certificates!"
+msgstr "Не удается использовать неподтвержденные сертификаты!"
+
+#: del/logic.py:4410
+msgid "[OK]: \"{}\""
+msgstr "[Успешно]: \"{}\""
+
+#: del/logic.py:4414
+msgid "[FAILED]: \"{}\". Details: {}"
+msgstr "[ОШИБКА]: \"{}\". Подробности: {}"
+
+#: del/logic.py:4430
+msgid "Unable to decode \"{}\"!"
+msgstr "Не удается изменить кодировку \"{}\"!"
+
+#: del/logic.py:4449
+msgid "Wrong input data: {}!"
+msgstr "Недопустимые входные данные: \"{}\"!"
+
+#: del/logic.py:4514
+msgid "No references have been found!"
+msgstr "Ориентиры не найдены!"
+
+#: del/logic.py:4518
+msgid "No references to the right!"
+msgstr "Справа ориентиров нет!"
+
+#: del/logic.py:4522
+msgid "No references to the left!"
+msgstr "Слева ориентиров нет!"
+
+#: del/logic.py:4599
+msgid "Unexpected end of text!"
+msgstr "Неожиданный конец текста!"
+
+#: del/logic.py:4775
+msgid ","
+msgstr "."
+
+#: del/logic.py:4787
+msgid ""
+"Operation has failed!\n"
+"\n"
+"Details: {}"
+msgstr ""
+"Операция завершилась неудачно!\n"
+"\n"
+"Подробности: {}"
+
+#: del/logic.py:4805
+msgid "Plain text (UTF-8)"
+msgstr "Обычный текст (UTF-8)"
+
+#: del/logic.py:4806 del/logic.py:4807
+msgid "Web-page"
+msgstr "Веб-страница"
+
+#: del/logic.py:4808
+msgid "All files"
+msgstr "Все файлы"
+
+#: del/logic.py:4813
+msgid "Save As:"
+msgstr "Сохранить как:"
+
+#: del/logic.py:4818
+msgid "Nothing to do!"
+msgstr "Действие не требуется."
+
+#: del/logic.py:4839 del/logic.py:4861
+msgid "B"
+msgstr "Б"
+
+#: del/logic.py:4852
+msgid "TiB"
+msgstr "ТиБ"
+
+#: del/logic.py:4854
+msgid "GiB"
+msgstr "ГиБ"
+
+#: del/logic.py:4856
+msgid "MiB"
+msgstr "МиБ"
+
+#: del/logic.py:4859
+msgid "KiB"
+msgstr "КиБ"
+
+#: del/logic.py:4957
+msgid "ATTENTION: Do yo really want to rewrite file \"{}\"?"
+msgstr "ВНИМАНИЕ: Перезаписать файл \"{}\"?"
+
+#: del/logic.py:4987 del/logic.py:5020
+msgid "sec"
+msgstr "сек"
+
+#: del/logic.py:5008
+msgid "yrs"
+msgstr "лет"
+
+#: del/logic.py:5010
+msgid "mths"
+msgstr "мес"
+
+#: del/logic.py:5012
+msgid "wks"
+msgstr "нед"
+
+#: del/logic.py:5014
+msgid "days"
+msgstr "дн"
+
+#: del/logic.py:5016
+msgid "hrs"
+msgstr "ч"
+
+#: del/logic.py:5018
+msgid "min"
+msgstr "мин"
+
+#: del/logic.py:5033
+msgid "Operation has been canceled."
+msgstr "Операция отменена."
+
+#: del/logic.py:5043
+msgid "Not implemented yet!"
+msgstr "Еще не реализовано!"
+
+#: del/regexp.py:56
+msgid "A syntax error in the regular expression (id: {})!"
+msgstr "Синтаксическая ошибка в регулярном выражении (запись: {})!"
+
+#: del/regexp.py:69
+msgid ""
+"Regular expression {} has failed: we were expecting\n"
+"\"{}\",\n"
+"but received\n"
+"\"{}\"."
+msgstr ""
+"Неудачное вычисление регулярного выражения {}: ожидалось\n"
+"\"{}\",\n"
+"получили\n"
+"\"{}\"."
+
+#: del/shared.py:390
+msgid "Compare texts:"
+msgstr "Сравнение текстов"
+
+#: del/shared.py:574
+msgid "Find:"
+msgstr "Найти:"
+
+#: del/shared.py:621 del/shared.py:720 del/shared.py:743
+msgid "No matches!"
+msgstr "Совпадений нет!"
+
+#: del/shared.py:712 del/shared.py:734
+msgid "Only one match has been found!"
+msgstr "Найдено 1 совпадение!"
+
+#: del/shared.py:716
+msgid "No more matches, continuing from the top!"
+msgstr "Совпадений больше нет, поиск продолжен с начала!"
+
+#: del/shared.py:739
+msgid "No more matches, continuing from the bottom!"
+msgstr "Совпадений больше нет, поиск продолжен с конца!"
+
+#: del/shared.py:1012
+msgid "{} tags to assign"
+msgstr "Создание {} тэгов"
+
+#: del/shared.py:1018
+msgid "Spelling seems to be correct."
+msgstr "Ошибок правописания не обнаружено."
+
+#: del/shared.py:1081 del/shared.py:1153 del/shared.py:1651 del/shared.py:1932
+#: del/shared.py:3036
+msgid "Close"
+msgstr "Закрыть"
+
+#: del/shared.py:1082 del/shared.py:1933
+msgid "Close this window"
+msgstr "Закрыть это окно"
+
+#: del/shared.py:1154 del/shared.py:1650 del/shared.py:3035 del/shared.py:4246
+msgid "Reject and close"
+msgstr "Отказаться и закрыть"
+
+#: del/shared.py:1162
+msgid "Reset"
+msgstr "Сброс"
+
+#: del/shared.py:1163
+msgid "Restore the text"
+msgstr "Восстановить текст"
+
+#: del/shared.py:1169
+msgid "Save"
+msgstr "Сохранить"
+
+#: del/shared.py:1170 del/shared.py:1664 del/shared.py:3043 del/shared.py:4238
+#: del/shared.py:4252
+msgid "Accept and close"
+msgstr "Принять и закрыть"
+
+#: del/shared.py:1657
+msgid "Clear the field"
+msgstr "Очистить поле"
+
+#: del/shared.py:1658
+msgid "Clear"
+msgstr "Очистить"
+
+#: del/shared.py:1665 del/shared.py:3044
+msgid "Save and close"
+msgstr "Запомнить и выйти"
+
+#: del/shared.py:1926
+msgid "Toggle all"
+msgstr "Переключить все"
+
+#: del/shared.py:1927
+msgid "Mark/unmark all checkboxes"
+msgstr "Переключить все галки"
+
+#: del/shared.py:1959
+msgid "Select files:"
+msgstr "Выберите файлы:"
+
+#: del/shared.py:2121
+msgid "Download progress"
+msgstr "Ход загрузок"
+
+#: del/shared.py:2269
+msgid "File: \"{}\"; {}/{} MB; Rate: {} kbps; ETA: {}s"
+msgstr "Файл: \"{}\"; {}/{} Мб; Скорость: {} Кб/с; Осталось: {}с"
+
+#: del/shared.py:2284
+msgid ""
+"Third-party module has failed!\n"
+"\n"
+"Details: {}"
+msgstr ""
+"Ошибка модуля третьей стороны!\n"
+"\n"
+"Детали: {}"
+
+#: del/shared.py:2552
+msgid "Paste a special symbol"
+msgstr "Вставить специальный символ"
+
+#: del/shared.py:2827
+msgid "Remove item #{}"
+msgstr "Удаление элемента №{}"
+
+#: del/shared.py:2830
+msgid "No item #{}!"
+msgstr "Элемент №{} отсутствует!"
+
+#: del/shared.py:2898
+msgid "Item \"{}\" is not in list!"
+msgstr "Элемент \"{}\" не в списке!"
+
+#: del/shared.py:3244
+msgid "Set the geometry to \"{}x{}+{}+{}\""
+msgstr "Изменение геометрии виджета на \"{}x{}+{}+{}\""
+
+#: del/shared.py:3326 del/shared.py:3369 del/shared.py:3371
+msgid "Please wait..."
+msgstr "Подождите..."
+
+#: del/shared.py:3727
+msgid "Widget 1 geometry: {}x{}+{}+{}"
+msgstr "Геометрия виджета 1: {}x{}+{}+{}"
+
+#: del/shared.py:3733
+msgid "Widget 2 geometry: {}x{}+{}+{}"
+msgstr "Геометрия виджета 2: {}x{}+{}+{}"
+
+#: del/shared.py:3830
+msgid "Wrong font: \"{}\"!"
+msgstr "Неправильный шрифт: \"{}\"!"
+
+#: del/shared.py:3880
+msgid "Save geometry: {}"
+msgstr "Сохранение геометрии: {}"
+
+#: del/shared.py:3889
+msgid "Restore geometry: {}"
+msgstr "Восстановление геометрии: {}"
+
+#: del/shared.py:3893
+msgid "Failed to restore geometry!"
+msgstr "Не удалось восстановить геометрию!"
+
+#: del/shared.py:3911
+msgid "Failed to change window properties!"
+msgstr "Не удалось изменить свойства окна!"
+
+#: del/shared.py:3994
+msgid "Failed to get the window handle!"
+msgstr "Не удалось получить дескриптор окна!"
+
+#: del/shared.py:4105
+msgid "Test:"
+msgstr "Тест:"
+
+#: del/shared.py:4230
+msgid "Yes"
+msgstr "Да"
+
+#: del/shared.py:4231
+msgid "No"
+msgstr "Нет"
+
+#: del/shared.py:4234
+msgid "Cancel"
+msgstr "Нет"
+
+#: del/shared.py:4399
+msgid "An unknown color \"{}\"!"
+msgstr "Неизвестный цвет \"{}\"!"
+
+#: del/shared.py:4425
+msgid "Failed to select a file!"
+msgstr "Не удалось выбрать файл!"
+
+#: del/shared.py:4441
+msgid "Failed to enable key combination \"{}\"!"
+msgstr "Не удалось задействовать сочетание клавиш \"{}\"!"
+
+#: del/shared.py:4445
+msgid "Wrong input data: \"{}\""
+msgstr "Недопустимые входные данные: \"{}\"!"
+
+#: del/tests.py:20 del/tests.py:37 del/tests.py:57 del/tests.py:76
+msgid "Variant #{}"
+msgstr "Вариант №{}"
+
+#: del/tests.py:23
+msgid "Description: no settings"
+msgstr "Описание: нет настроек"
+
+#: del/tests.py:40
+msgid "Description: headers"
+msgstr "Описание: заголовки"
+
+#: del/tests.py:60
+msgid "Description: transposition"
+msgstr "Описание: транспозиция"
+
+#: del/tests.py:79
+msgid "Description: transposition and headers"
+msgstr "Описание: транспозиция и заголовки"
+
+#: del/tests.py:345
+msgid "Copy something to clipboard"
+msgstr "Скопируйте что-нибудь в буфер обмена"
+
+#: del/tests.py:348 del/tests.py:355
+msgid "Clipboard contents: \"{}\""
+msgstr "Содержание буфера обмена: \"{}\""
+
+#: del/tests.py:351
+msgid "The following will be copied: \"{}\""
+msgstr "Будет скопировано следующее: \"{}\""
+
+#: del/tests.py:387
+msgid "New settings"
+msgstr "Новые настройки"
+
+#: del/tests.py:513
+msgid "The event has been triggered!"
+msgstr "Событие вызвано!"
+
+#: del/tests.py:528
+msgid "Button"
+msgstr "Кнопка"
+
+#: del/tests.py:532
+msgid "Trigger an event"
+msgstr "Вызвать событие"
+
+#: del/tests.py:593
+msgid "Screen resolution: {}x{}"
+msgstr "Разрешение экрана: {}x{}"
+
+#: del/tests.py:599
+msgid "Random coordinates: x: {}; y: {}"
+msgstr "Случайные координаты: x: {}; y: {}"
+
+#: del/tests.py:877 del/tests.py:910
+msgid "Press Return to place widgets randomly"
+msgstr "Нажмите Ввод, чтобы расположить виджеты случайным образом"
+
+#: del/tests.py:881
+msgid ""
+"Anchor: {}\n"
+"Press Return to adjust Widget 2"
+msgstr ""
+"Привязка: {}\n"
+"Нажмите Ввод для подгонки Виджета 2"
+
+#: del/tests.py:933
+msgid "Anchor: {}"
+msgstr "Привязка: {}"
+
+#~ msgid "Failed to enable key combination \"%s\"!"
+#~ msgstr "Не удалось задействовать сочетание клавиш \"%s\"!"
+
+#~ msgid "Wrong input data: \"%s\""
+#~ msgstr "Недопустимые входные данные: \"%s\""
+
+#~ msgid "An unknown color \"%s\"!"
+#~ msgstr "Неизвестный цвет \"%s\"!"
+
+#~ msgid "The condition \"%s\" is not observed!"
+#~ msgstr "Условие \"%s\" не выполнено!"
+
+#~ msgid "Failed to insert the text!"
+#~ msgstr "Не удалось вставить текст!"
+
+#~ msgid "A logic error: unknown object type: \"%s\"!"
+#~ msgstr "Логическая ошибка: неизвестный тип объекта: \"%s\"!"
+
+#~ msgid "Text:"
+#~ msgstr "Текст:"
+
+#~ msgid "Quit"
+#~ msgstr "Выйти"
+
+#~ msgid "File \"%s\" has not been found!"
+#~ msgstr "Файл \"%s\" не найден!"
+
+#~ msgid "Title:"
+#~ msgstr "Заголовок"
+
+#~ msgid "The parent has already been destroyed."
+#~ msgstr "Родительский виджет уже был разрушен."
+
+#~ msgid "Failed to remove the tag %s in the widget %s in positions %s-%s!"
+#~ msgstr "Не удалось удалить тэг %s в виджете %s для позиций %s-%s!"
+
+#~ msgid "DEBUG-ERROR"
+#~ msgstr "ОШИБКА ПРИ ОТЛАДКЕ"
+
+#~ msgid "Element \"%s\" has not been found in fragment \"%s\"!"
+#~ msgstr "Элемент \"%s\" не был найден во фрагменте \"%s\"!"
+
+#~ msgid "Failed to add tag \"%s\" for positions %s-%s!"
+#~ msgstr "Не удалось добавить тэг \"%s\" для позиций %s-%s!"
+
+#~ msgid ""
+#~ "Failed to configure tag \"%s\" to have the background of color \"%s\"!"
+#~ msgstr "Не удалось назначить тэгу \"%s\" фон \"%s\"!"
+
+#~ msgid ""
+#~ "Failed to configure tag \"%s\" to have the foreground of color \"%s\"!"
+#~ msgstr "Не удалось назначить тэгу \"%s\" цвет \"%s\"!"
+
+#~ msgid "Failed to configure tag \"%s\" to have the font \"%s\"!"
+#~ msgstr "Не удалось назначить тэгу \"%s\" шрифт \"%s\"!"
+
+#~ msgid "Failed to insert mark \"%s\" in position \"%s\"!"
+#~ msgstr "Не удается вставить метку \"%s\" для позиции \"%s\"!"
+
+#~ msgid "Failed to remove mark \"%s\"!"
+#~ msgstr "Не удалось удалить метку \"%s\"!"
+
+#~ msgid "Failed to shift screen to label \"%s\"!"
+#~ msgstr "Не удалось сдвинуть экран до метки \"%s\"!"
+
+#~ msgid "Got position: \"%s\""
+#~ msgstr "Получена позиция: \"%s\""
+
+#~ msgid "Cannot return a cursor position!"
+#~ msgstr "Не удалось вернуть позицию курсора!"
+
+#~ msgid "%d tags to assign"
+#~ msgstr "Создание %d тэгов"
+
+#~ msgid ""
+#~ "An unknown mode \"%s\"!\n"
+#~ "\n"
+#~ "The following modes are supported: \"%s\"."
+#~ msgstr ""
+#~ "Неизвестный режим \"%s\"!\n"
+#~ "\n"
+#~ "Поддерживаются следующие режимы: \"%s\"."
+
+#~ msgid "Set the geometry to \"%dx%d+%d+%d\""
+#~ msgstr "Изменение геометрии виджета на \"%dx%d+%d+%d\""
+
+#~ msgid "Remove item #%d"
+#~ msgstr "Удаление элемента №%d"
+
+#~ msgid "No item #%d!"
+#~ msgstr "Элемент №%d отсутствует!"
+
+#~ msgid "Item \"%s\" is not in list!"
+#~ msgstr "Элемент \"%s\" не в списке!"
+
+#~ msgid "Failed to return selection in the Tkinter widget!"
+#~ msgstr "Не удается вернуть диапазон выделения в виджете Tkinter!"
+
+#~ msgid "Save geometry: %s"
+#~ msgstr "Сохранение геометрии: %s"
+
+#~ msgid "Restore geometry: %s"
+#~ msgstr "Восстановление геометрии: %s"
+
+#~ msgid "Wrong font: \"%s\"!"
+#~ msgstr "Неправильный шрифт: \"%s\"!"
+
+#~ msgid "Message"
+#~ msgstr "Сообщение"
+
+#~ msgid "CRITICAL"
+#~ msgstr "КРИТИЧЕСКАЯ ОШИБКА"
+
+#~ msgid "Picture \"%s\" was not found!"
+#~ msgstr "Изображение \"%s\" не найдено!"
+
+#~ msgid "A clipboard error has occurred!"
+#~ msgstr "Ошибка буфера обмена!"
+
+#~ msgid "An unknown error has occurred."
+#~ msgstr "Произошла неизвестная ошибка."
+
+#~ msgid "Failed to paste the clipboard contents!"
+#~ msgstr "Ошибка вставки из буфера обмена."
+
+#~ msgid "Add %s"
+#~ msgstr "Добавить %s"
+
+#~ msgid "Close %d objs"
+#~ msgstr "Закрыть %d объектов"
+
+#~ msgid "Widget \"%s\" does not have a \"close\" action!"
+#~ msgstr "У виджета \"%s\" нет действия \"close\"!"
+
+#~ msgid "Nothing to do."
+#~ msgstr "Действие не требуется."
+
+#~ msgid "File: \"%s\"; %d/%d MB; Rate: %d kbps; ETA: %d s"
+#~ msgstr "Файл: \"%s\"; %d/%d Мб; Скорость: %d Кб/с; Осталось: %dс"
+
+#~ msgid "Widget 1 geometry: %dx%d+%d+%d"
+#~ msgstr "Геометрия виджета 1: %dx%d+%d+%d"
+
+#~ msgid "Widget 2 geometry: %dx%d+%d+%d"
+#~ msgstr "Геометрия виджета 2: %dx%d+%d+%d"
+
+#~ msgid "ATTENTION: Do yo really want to rewrite file \"%s\"?"
+#~ msgstr "ВНИМАНИЕ: Перезаписать файл \"%s\"?"
+
+#~ msgid "Custom arguments: \"%s\""
+#~ msgstr "Особые параметры: \"%s\""
+
+#~ msgid "Failed to run \"%s\"!"
+#~ msgstr "Не удалось запустить \"%s\"!"
+
+#~ msgid "Write file \"%s\""
+#~ msgstr "Запись файла \"%s\""
+
+#~ msgid "Unable to write file \"%s\"!"
+#~ msgstr "Не удается записать файл \"%s\"!"
+
+#~ msgid "***** Start of log. *****"
+#~ msgstr "***** Начало записи лога. *****"
+
+#~ msgid "Entries deleted: %d (%d-%d)"
+#~ msgstr "Удалено вхождений: %d (%d-%d)"
+
+#~ msgid "File \"%s\" is not sortable!"
+#~ msgstr "Файл \"%s\" не подлежит сортировке!"
+
+#~ msgid "Dictionary \"%s\": Incorrect line #%d: \"%s\"!"
+#~ msgstr "Словарь \"%s\": Неправильная строка №%d: \"%s\"!"
+
+#~ msgid "Load file \"%s\""
+#~ msgstr "Загрузка файла \"%s\""
+
+#~ msgid "Unable to read file \"%s\"!"
+#~ msgstr "Не удается прочитать файл \"%s\"!"
+
+#~ msgid "Convert \"%s\" to an integer"
+#~ msgstr "Конвертация \"%s\" в целое число"
+
+#~ msgid "Integer is required at input, but found \"%s\"! Return 0"
+#~ msgstr "На входе должно быть целое число, но получено \"%s\"! Возвращаю 0"
+
+#~ msgid ""
+#~ "Different number of opening and closing brackets: \"%s\": %d; \"%s\": %d!"
+#~ msgstr ""
+#~ "Разное число открывающих и закрывающих скобок: \"%s\": %d; \"%s\": %d!"
+
+#~ msgid "Empty strings are not supported!"
+#~ msgstr "Поддерживаются только непустые строки!"
+
+#~ msgid "Failed to convert \"%s\" to an integer!"
+#~ msgstr "Не удалось конвертировать \"%s\" в целое число!"
+
+#~ msgid "Failed to convert \"%s\" to a floating-point number!"
+#~ msgstr "Не удалось конвертировать \"%s\" в число с плавающей точкой!"
+
+#~ msgid "Note: it will be Monday!"
+#~ msgstr "Обратите внимание: указанная дата - понедельник!"
+
+#~ msgid "The object \"%s\" is not a file!"
+#~ msgstr "Объект \"%s\" не является файлом!"
+
+#~ msgid "Copy \"%s\" to \"%s\""
+#~ msgstr "Копирование \"%s\" в \"%s\""
+
+#~ msgid "Failed to copy file \"%s\" to \"%s\"!"
+#~ msgstr "Не удалось скопировать файл \"%s\" в \"%s\"!"
+
+#~ msgid "Move \"%s\" to \"%s\""
+#~ msgstr "Перемещение \"%s\" в \"%s\""
+
+#~ msgid "Failed to move \"%s\" to \"%s\"!"
+#~ msgstr "Не удалось переместить \"%s\" в \"%s\"!"
+
+#~ msgid "Failed to get the date of the file \"%s\"!"
+#~ msgstr "Не удалось определить дату файла \"%s\"!"
+
+#~ msgid "Unable to copy the file \"%s\" to iself!"
+#~ msgstr "Нельзя скопировать файл \"%s\" сам в себя!"
+
+#~ msgid "Delete \"%s\""
+#~ msgstr "Удаление \"%s\""
+
+#~ msgid "Failed to delete file \"%s\"!"
+#~ msgstr "Не удается удалить файл \"%s\"!"
+
+#~ msgid ""
+#~ "Moving is not necessary, because the source and destination are identical."
+#~ msgstr ""
+#~ "Перемещение не требуется, поскольку на входе и выходе указан один и тот "
+#~ "же объект."
+
+#~ msgid "Change the time of the file \"%s\" to %s"
+#~ msgstr "Изменение времени файла \"%s\" на %s"
+
+#~ msgid "Failed to change the time of the file \"%s\" to \"%s\"!"
+#~ msgstr "Не удалось изменить время файла \"%s\" на \"%s\"!"
+
+#~ msgid "Directory \"%s\" already exists."
+#~ msgstr "Каталог \"%s\" уже существует."
+
+#~ msgid "The path \"%s\" is invalid!"
+#~ msgstr "Путь \"%s\" неверен!"
+
+#~ msgid "Create directory \"%s\""
+#~ msgstr "Создание каталога \"%s\""
+
+#~ msgid "Failed to create directory \"%s\"!"
+#~ msgstr "Не удается создать каталог \"%s\"!"
+
+#~ msgid "Failed to delete directory \"%s\"! Delete it manually."
+#~ msgstr "Не удается удалить каталог \"%s\"! Удалите его вручную."
+
+#~ msgid "Unable to copy \"%s\" to iself!"
+#~ msgstr "Нельзя скопировать \"%s\" сам в себя!"
+
+#~ msgid "Failed to copy \"%s\" to \"%s\"!"
+#~ msgstr "Не удалось скопировать \"%s\" в \"%s\"!"
+
+#~ msgid "New value of the key \"%s\" has been loaded."
+#~ msgstr "Загружено новое значение ключа \"%s\"."
+
+#~ msgid "Keys loaded in total: %d, whereas %d are modified."
+#~ msgstr "Всего загружено ключей: %d, из них измененных: %d"
+
+#~ msgid "Missing sections: %d"
+#~ msgstr "Отсутствующих разделов: %d"
+
+#~ msgid "Missing keys: %d"
+#~ msgstr "Отсутствующих ключей: %d"
+
+#~ msgid ""
+#~ "Failed to read the configuration file \"%s\". This file must share the "
+#~ "same directory with the program and have UTF-8 encoding (no BOM) and UNIX "
+#~ "line break type."
+#~ msgstr ""
+#~ "Не удается прочитать конфигурационный файл \"%s\". Этот файл должен "
+#~ "находиться в одном каталоге с программой и иметь кодировку utf-8 (без "
+#~ "BOM), тип разрыва строки - UNIX."
+
+#~ msgid "Failed to open URL \"%s\" in a default browser!"
+#~ msgstr "Не удалось открыть адрес \"%s\" в браузере по умолчанию!"
+
+#~ msgid "Delete the symbolic link \"%s\""
+#~ msgstr "Удаление ярлыка \"%s\""
+
+#~ msgid "Failed to remove shortcut \"%s\". Remove it manually and press OK."
+#~ msgstr "Не удается удалить ярлык \"%s\". Удалите его вручную и нажмите OK."
+
+#~ msgid "Create a symbolic link \"%s\""
+#~ msgstr "Создание ярлыка \"%s\""
+
+#~ msgid "Failed to create shortcut \"%s\". Create it manually and press OK."
+#~ msgstr "Не удается создать ярлык \"%s\". Создайте его вручную и нажмите OK."
+
+#~ msgid "Failed to find words of paragraph #%d!"
+#~ msgstr "Не удалось найти слова абзаца #%d!"
+
+#~ msgid "The operation has taken %f s."
+#~ msgstr "Операция завершена за %f с."
+
+#~ msgid "Set the max number of rows to %d"
+#~ msgstr "Задать максимальное число столбцов: %d"
+
+#~ msgid "[OK]: \"%s\""
+#~ msgstr "[Успешно]: \"%s\""
+
+#~ msgid "[FAILED]: \"%s\""
+#~ msgstr "[ОШИБКА]: \"%s\""
+
+#~ msgid "Unable to decode \"%s\"!"
+#~ msgstr "Не удалось декодировать %s!"
+
+#~ msgid "Text with instructions:"
+#~ msgstr "Текст с инструкцией:"
+
+#~ msgid "Delete all text"
+#~ msgstr "Удалить весь текст"
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgid "Manage blacklist"
+#~ msgstr "Управление черным списком"
