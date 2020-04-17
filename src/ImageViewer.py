@@ -1,94 +1,94 @@
 #!/usr/bin/python3
 
-import skl_shared.shared as sh
-from skl_shared.localize import _
+import skl_shared2.shared as sh
+from skl_shared2.localize import _
 
-ICON = sh.objs.pdir().add('..','resources','icon_64x64_viewer.gif')
+ICON = sh.objs.get_pdir().add('..','resources','icon_64x64_viewer.gif')
 
 
 # How to combine frames, scrollbars and canvas
 class ImageViewer:
     
     def __init__(self,parent,picture=None):
-        self._size    = 0
-        self._picture = picture
-        self.parent   = parent
-        self.gui()
-        self.pic()
+        self.size    = 0
+        self.picture = picture
+        self.parent  = parent
+        self.set_gui()
+        self.set_pic()
         # Set the scrolling region only after setting a picture
-        if self._size:
-            self.canvas.region (x = self._size[0]
-                               ,y = self._size[1]
-                               )
+        if self.size:
+            self.canvas.set_region (x = self.size[0]
+                                   ,y = self.size[1]
+                                   )
         self.canvas.scroll()
         
-    def gui(self):
-        self.parent = sh.Top()
+    def set_gui(self):
+        self.parent = sh.Top (icon  = ICON
+                             ,title = _('Image') + ':'
+                             )
         sh.Geometry(self.parent).set('1024x768')
-        self.frames()
-        self.canvas = sh.Canvas(parent = self.frame1)
-        self.label  = sh.Label (parent = self.frame1
+        self.set_frames()
+        self.canvas = sh.Canvas(parent = self.frm_sub)
+        self.label  = sh.Label (parent = self.frm_sub
                                ,expand = True
                                ,fill   = 'both'
                                )
         self.canvas.embed(self.label)
-        self.scrollbars()
-        self.canvas.focus()
-        self.title()
-        self.icon()
-        self.bindings()
-        self.canvas.top_bindings (top  = self.parent
-                                 ,Ctrl = False
-                                 )
+        self.set_scroll()
+        self.canvas.set_focus()
+        self.set_bindings()
+        self.canvas.set_top_bindings (top  = self.parent
+                                     ,Ctrl = False
+                                     )
         
-    def title(self,arg=None):
+    def set_title(self,arg=None):
         if not arg:
             arg = _('Image') + ':'
-        self.parent.title(arg)
+        self.parent.set_title(arg)
     
-    def scrollbars(self):
-        self.xscroll = sh.Scrollbar (parent = self.frame_x
+    def set_scroll(self):
+        self.scr_hor = sh.Scrollbar (parent = self.frm_hor
                                     ,scroll = self.canvas
                                     ,Horiz  = True
                                     )
-        self.yscroll = sh.Scrollbar (parent = self.frame_y
+        self.scr_ver = sh.Scrollbar (parent = self.frm_ver
                                     ,scroll = self.canvas
                                     )
 
-    def frames(self):
-        self.frame   = sh.Frame (parent = self.parent)
-        self.frame_x = sh.Frame (parent = self.frame
+    def set_frames(self):
+        self.frm_prm = sh.Frame (parent = self.parent)
+        self.frm_hor = sh.Frame (parent = self.frm_prm
                                 ,expand = False
                                 ,fill   = 'x'
                                 ,side   = 'bottom'
                                 )
-        self.frame_y = sh.Frame (parent = self.frame
+        self.frm_ver = sh.Frame (parent = self.frm_prm
                                 ,expand = False
                                 ,fill   = 'y'
                                 ,side   = 'right'
                                 )
         # This frame must be created after the bottom frame
-        self.frame1  = sh.Frame (parent = self.frame)
+        self.frm_sub = sh.Frame (parent = self.frm_prm)
     
-    def pic(self):
-        f = '[ImageViewer] ImageViewer.ImageViewer.pic'
-        if self._picture:
-            if sh.File(file=self._picture).Success:
+    def set_pic(self):
+        f = '[ImageViewer] ImageViewer.ImageViewer.set_pic'
+        if self.picture:
+            if sh.File(file=self.picture).Success:
                 iimage = sh.Image()
-                iimage.open(self._picture)
-                self._size = iimage._loader.size
-                self.label.widget.config(image=iimage._image)
+                iimage.open(self.picture)
+                self.size = iimage.loader.size
+                self.label.widget.config(image=iimage.image)
                 ''' This prevents the garbage collector from deleting
                     the image.
                 '''
-                self.label.widget.image = iimage._image
+                self.label.widget.image = iimage.image
             else:
                 mes = _('Wrong input data!')
-                sh.objs.mes(f,mes,True).warning()
+                sh.objs.get_mes(f,mes,True).show_warning()
         else:
-            sh.com.empty(f)
+            sh.com.rep_empty(f)
         
-    def bindings(self):
+    def set_bindings(self):
         sh.com.bind (obj      = self.parent
                     ,bindings = ('<Control-q>','<Control-w>','<Escape>')
                     ,action   = self.close
@@ -100,19 +100,18 @@ class ImageViewer:
     def close(self,event=None):
         self.parent.close()
         
-    def icon(self,path=None):
+    def set_icon(self,path=None):
         if path:
-            self.parent.icon(path)
+            self.parent.set_icon(path)
         else:
-            self.parent.icon(ICON)
+            self.parent.set_icon(ICON)
 
 
 if __name__ == '__main__':
     sh.com.start()
-    iv = ImageViewer (parent  = sh.objs.root()
-                     ,picture = sh.objs.pdir().add ('..','resources'
-                                                   ,'Gnu_(PSF).png'
-                                                   )
-                     )
-    iv.show()
+    ImageViewer (parent  = sh.objs.get_root()
+                ,picture = sh.objs.get_pdir().add ('..','resources'
+                                                  ,'Gnu_(PSF).png'
+                                                  )
+                ).show()
     sh.com.end()
