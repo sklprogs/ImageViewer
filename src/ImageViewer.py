@@ -35,7 +35,7 @@ class ImageViewer:
                                )
         self.canvas.embed(self.label)
         self.set_scroll()
-        self.canvas.set_focus()
+        self.canvas.focus()
         self.set_bindings()
         self.canvas.set_top_bindings (top  = self.parent
                                      ,Ctrl = False
