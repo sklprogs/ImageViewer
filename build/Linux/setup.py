@@ -8,15 +8,15 @@ buildOptions = dict (packages = []
                     )
 
 executables = [Executable ('ImageViewer.py'
-                          ,base       = 'Console'
-                          ,icon       = 'resources/icon_64x64_viewer.gif'
+                          ,base = 'Console'
+                          ,icon = 'resources/icon_64x64_viewer.gif'
                           ,targetName = 'ImageViewer'
                           )
               ]
 
-setup (name        = 'ImageViewer'
-      ,version     = '1'
+setup (name = 'ImageViewer'
+      ,version = '1'
       ,description = 'A very basic image viewer'
-      ,options     = dict(build_exe=buildOptions)
+      ,options = dict(build_exe=buildOptions)
       ,executables = executables
       )

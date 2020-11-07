@@ -10,9 +10,9 @@ ICON = sh.objs.get_pdir().add('..','resources','icon_64x64_viewer.gif')
 class ImageViewer:
     
     def __init__(self,parent,picture=None):
-        self.size    = 0
+        self.size = 0
         self.picture = picture
-        self.parent  = parent
+        self.parent = parent
         self.set_gui()
         self.set_pic()
         # Set the scrolling region only after setting a picture
@@ -23,21 +23,21 @@ class ImageViewer:
         self.canvas.scroll()
         
     def set_gui(self):
-        self.parent = sh.Top (icon  = ICON
+        self.parent = sh.Top (icon = ICON
                              ,title = _('Image') + ':'
                              )
         sh.Geometry(self.parent).set('1024x768')
         self.set_frames()
         self.canvas = sh.Canvas(parent = self.frm_sub)
-        self.label  = sh.Label (parent = self.frm_sub
+        self.label = sh.Label (parent = self.frm_sub
                                ,expand = True
-                               ,fill   = 'both'
+                               ,fill = 'both'
                                )
         self.canvas.embed(self.label)
         self.set_scroll()
         self.canvas.focus()
         self.set_bindings()
-        self.canvas.set_top_bindings (top  = self.parent
+        self.canvas.set_top_bindings (top = self.parent
                                      ,Ctrl = False
                                      )
         
@@ -49,7 +49,7 @@ class ImageViewer:
     def set_scroll(self):
         self.scr_hor = sh.Scrollbar (parent = self.frm_hor
                                     ,scroll = self.canvas
-                                    ,Horiz  = True
+                                    ,Horiz = True
                                     )
         self.scr_ver = sh.Scrollbar (parent = self.frm_ver
                                     ,scroll = self.canvas
@@ -59,13 +59,13 @@ class ImageViewer:
         self.frm_prm = sh.Frame (parent = self.parent)
         self.frm_hor = sh.Frame (parent = self.frm_prm
                                 ,expand = False
-                                ,fill   = 'x'
-                                ,side   = 'bottom'
+                                ,fill = 'x'
+                                ,side = 'bottom'
                                 )
         self.frm_ver = sh.Frame (parent = self.frm_prm
                                 ,expand = False
-                                ,fill   = 'y'
-                                ,side   = 'right'
+                                ,fill = 'y'
+                                ,side = 'right'
                                 )
         # This frame must be created after the bottom frame
         self.frm_sub = sh.Frame (parent = self.frm_prm)
@@ -89,9 +89,9 @@ class ImageViewer:
             sh.com.rep_empty(f)
         
     def set_bindings(self):
-        sh.com.bind (obj      = self.parent
+        sh.com.bind (obj = self.parent
                     ,bindings = ('<Control-q>','<Control-w>','<Escape>')
-                    ,action   = self.close
+                    ,action = self.close
                     )
 
     def show(self,event=None):
@@ -109,7 +109,7 @@ class ImageViewer:
 
 if __name__ == '__main__':
     sh.com.start()
-    ImageViewer (parent  = sh.objs.get_root()
+    ImageViewer (parent = sh.objs.get_root()
                 ,picture = sh.objs.get_pdir().add ('..','resources'
                                                   ,'Gnu_(PSF).png'
                                                   )
