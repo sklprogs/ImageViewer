@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-import skl_shared.shared as sh
 from skl_shared.localize import _
+import skl_shared.shared as sh
+import skl_shared.image as im
 
 ICON = sh.objs.get_pdir().add('..','resources','icon_64x64_viewer.gif')
 
@@ -73,8 +74,8 @@ class ImageViewer:
     def set_pic(self):
         f = '[ImageViewer] ImageViewer.ImageViewer.set_pic'
         if self.picture:
-            if sh.File(file=self.picture).Success:
-                iimage = sh.Image()
+            if sh.File(self.picture).Success:
+                iimage = im.Image()
                 iimage.open(self.picture)
                 self.size = iimage.loader.size
                 self.label.widget.config(image=iimage.image)
