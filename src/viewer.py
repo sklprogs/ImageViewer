@@ -57,7 +57,7 @@ if __name__ == '__main__':
     sh.com.start()
     ImageViewer (ScrollX = True
                 ,title = _('Image') + ':'
-                ,icon = ''
+                ,icon = ICON
                 ,width = 1024
                 ,height = 768
                 ,xborder = 0

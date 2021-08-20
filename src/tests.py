@@ -5,7 +5,8 @@ import skl_shared.shared as sh
 import skl_shared.image.controller as im
 import viewer as vw
 
-IMAGE = sh.objs.get_pdir().add('..','resources','Gnu_(PSF).png')
+ICON = sh.objs.get_pdir().add('..','resources','icon_64x64_viewer.gif')
+IMAGE = sh.objs.pdir.add('..','resources','Gnu_(PSF).png')
 
 
 class Scrollable(sh.Scrollable):
@@ -133,6 +134,13 @@ class ImageViewer(vw.ImageViewer):
 
 
 if __name__ == '__main__':
-    ImageViewer (image_path = IMAGE
-                ,title = _('A more complex widget:')
+    ImageViewer (title = _('A more complex widget:')
+                ,icon = ICON
+                ,image_path = IMAGE
+                ,width = 800
+                ,height = 600
+                ,xborder = 0
+                ,yborder = 0
+                ,ScrollX = True
+                ,Maximize = False
                 ).show()
