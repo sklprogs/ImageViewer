@@ -14,6 +14,18 @@ class Scrollable(sh.Scrollable):
     def __init__(self,*args,**kwargs):
         super().__init__(*args,**kwargs)
     
+    def move_up(self,event=None):
+        self.cvs_prm.move_up()
+    
+    def move_down(self,event=None):
+        self.cvs_prm.move_down()
+    
+    def move_left(self,event=None):
+        self.cvs_prm.move_left()
+    
+    def move_right(self,event=None):
+        self.cvs_prm.move_right()
+    
     def set_gui(self):
         self.add_paths()
         self.set_frames()
@@ -92,6 +104,7 @@ class Scrollable(sh.Scrollable):
                                  ,active = self.icn_top
                                  ,inactive = self.icn_top
                                  ,expand = True
+                                 ,action = self.move_up
                                  )
         self.btn_btm = sh.Button (parent = self.frm_btm
                                  ,hint = _('This button is at the bottom')
@@ -100,6 +113,7 @@ class Scrollable(sh.Scrollable):
                                  ,active = self.icn_btm
                                  ,inactive = self.icn_btm
                                  ,expand = True
+                                 ,action = self.move_down
                                  )
         self.btn_lft = sh.Button (parent = self.frm_lft
                                  ,hint = _('This button is at the left')
@@ -107,6 +121,7 @@ class Scrollable(sh.Scrollable):
                                  ,hdir = 'bottom'
                                  ,active = self.icn_lft
                                  ,inactive = self.icn_lft
+                                 ,action = self.move_left
                                  )
         self.btn_rht = sh.Button (parent = self.frm_rht
                                  ,hint = _('This button is at the right')
@@ -114,6 +129,7 @@ class Scrollable(sh.Scrollable):
                                  ,hdir = 'bottom'
                                  ,active = self.icn_rht
                                  ,inactive = self.icn_rht
+                                 ,action = self.move_right
                                  )
 
 
