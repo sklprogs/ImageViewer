@@ -2,7 +2,7 @@
 
 from skl_shared.localize import _
 import skl_shared.shared as sh
-import skl_shared.image as im
+import skl_shared.image.controller as im
 
 ICON = sh.objs.get_pdir().add('..','resources','icon_64x64_viewer.gif')
 
